@@ -1,0 +1,291 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage{smartdiagram}
+\usepackage{graphicx}
+\usepackage{chemfig}
+
+\usepackage{amssymb}  % For additional symbols if needed
+\usesmartdiagramlibrary{additions}
+
+\title{\Huge{Prelab}\\ \Large{John Caradonna}}
+\author{\huge{Giacomo Cappelletto}}
+\date{3/9/24}
+
+\begin{document}
+
+
+\maketitle
+\newpage
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
+
+\chapter{Preparation}
+
+\section{Before}
+
+\nt{For Labs Notes, Prepare
+
+	\begin{enumerate}
+		\item Purpose
+		\item Hazards
+		\item Procedure
+	\end{enumerate}
+
+	Bring to Lab
+	\\
+	\textbf{PreLab worksheet}
+	\\
+	\textbf{Long pants}
+}
+
+
+\section{During}
+
+\nt{
+	\begin{enumerate}
+		\item Arrive early
+		\item Brief lab instructor talk
+		\item Do the stuff
+		\item Clean up
+		\item Post lab worksheet
+		\item Ask TF to sign worksheet and upload to gradescope
+		\item Leave
+	\end{enumerate}
+}
+
+\chapter*{Lab 01 - Synthesis of a Hydrated Salt}
+
+
+\begin{center}
+	\textbf{Giacomo Cappelletto - 17/09/2024}	
+\end{center}
+
+\section*{Chemicals Safety}
+{
+	\begin{itemize}
+		\item Only transfer them in proper containers (lab glassware).
+		\item Do not pour solutions at or above eye level.
+		\item Label any containers used for more than just immediately transferring (e.g. you don't need to label a graduated cylinder, but a beaker for storing it on the bench should be labeled).
+		\item When diluting or adding to a reaction mixture, never pour a solution into a concentrated corrosive as that is more likely to splash the corrosive. Pour the corrosive into the other solution.
+		\item We provide disposable gloves to protect your hands from accidental exposure in the labs. They are a temporary measure in case you get a chemical on them; they typically have a rating for how long before certain compounds pass through to your skin.
+	\end{itemize}
+}
+
+\bigskip
+\centerline{$\Diamond\Diamond\Diamond$} % Three diamond symbols
+\bigskip
+
+\section*{Potassium Hydroxide $KOH$}{
+	\textbf{Hazards}
+	\begin{enumerate}
+		\item May be corrosive to metals
+		\item Harmful if swallowed
+		\item Causes severe skin burns and eye damage
+		\item May cause respiratory irritation
+	\end{enumerate}
+	\textbf{Precautions}
+	\begin{enumerate}
+		\item Wash face, hands and any exposed skin thoroughly after handling
+		\item Do not eat, drink or smoke when using this product
+		\item Do not breathe dust/fume/gas/mist/vapors/spray
+		\item Wear protective gloves/protective clothing/eye protection/face protection
+		\item Use only outdoors or in a well-ventilated area
+		\item Keep only in original container
+	\end{enumerate}
+
+}
+
+\bigskip
+\centerline{$\Diamond\Diamond\Diamond$} % Three diamond symbols
+\bigskip
+
+\section*{Ethanol (C$_2$H$_5$OH)}{
+	\textbf{Hazards}
+	\begin{enumerate}
+		\item Highly flammable liquid and vapor
+		\item Causes serious eye irritation
+		\item May cause drowsiness or dizziness
+		\item Can cause central nervous system depression if ingested in large quantities
+		\item Harmful if inhaled in high concentrations
+	\end{enumerate}
+	\textbf{Precautions}
+	\begin{enumerate}
+		\item Keep away from heat, hot surfaces, sparks, open flames, and other ignition sources. No smoking.
+		\item Use explosion-proof electrical/ventilating/lighting equipment.
+		\item Wear protective gloves, protective clothing, and eye protection.
+		\item Avoid breathing fumes, vapor, or spray. Use only in a well-ventilated area or under a fume hood.
+		\item In case of fire, use water spray, alcohol-resistant foam, dry chemical, or carbon dioxide.
+		\item Store in a tightly closed container, in a cool and well-ventilated area.
+	\end{enumerate}
+}
+
+\bigskip
+\centerline{$\Diamond\Diamond\Diamond$} % Three diamond symbols
+\bigskip
+
+\section*{Heating Corrosives and Releasing Gasses}{
+	\textbf{Hazards}
+	\begin{enumerate}
+		\item Avoid boiling which could cause spillages.
+		\item Caution with hot glassware.
+		\item Heating corrosive substances can cause them to vaporize, leading to exposure to harmful fumes.
+		\item Gases released during heating can cause respiratory irritation or even poisoning, depending on the substance.
+		\item If heated in closed containers, the build-up of pressure can cause explosions or container ruptures.
+		\item Certain corrosives, when heated, may react violently with other substances.
+	\end{enumerate}
+	\textbf{Precautions}
+	\begin{enumerate}
+		\item Always use appropriate glassware rated for heat when working with corrosive substances.
+		\item Ensure proper ventilation, such as working under a fume hood, to avoid inhaling dangerous fumes.
+		\item Never heat a closed container, especially if it contains volatile or corrosive substances.
+		\item When heating, maintain a safe distance and use heat-resistant gloves and protective eyewear.
+		\item Be aware of the properties of the corrosive you are heating, and avoid overheating to prevent dangerous chemical reactions.
+	\end{enumerate}
+}
+
+\bigskip
+\centerline{$\Diamond\Diamond\Diamond$} % Three diamond symbols
+\bigskip
+
+\section*{Guidelines on Disposable Gloves}{
+	\textbf{Hazards}
+	\begin{enumerate}
+		\item Disposable gloves may provide insufficient protection against certain chemicals or corrosive substances.
+		\item Improper glove fit can lead to tears or reduced dexterity, increasing the risk of spills or exposure.
+		\item Reusing disposable gloves can lead to contamination, reducing their effectiveness.
+		\item Certain gloves may cause allergic reactions, particularly those made from latex.
+		\item Gloves can get punctured or damaged without visible signs, leading to exposure.
+	\end{enumerate}
+	\textbf{Precautions}
+	\begin{enumerate}
+		\item Always choose gloves appropriate for the chemicals and materials being handled (e.g., nitrile, latex, or vinyl gloves).
+		\item Inspect gloves for visible damage or defects before use, such as tears, holes, or punctures.
+		\item Discard gloves after each use, especially if they become contaminated or damaged.
+		\item Remove gloves carefully to avoid skin contact with hazardous substances.
+		\item Wash hands before and after wearing gloves to minimize contamination risks.
+		\item Use gloves that fit snugly but allow for free movement to avoid accidental spills.
+	\end{enumerate}
+}
+
+\bigskip
+\centerline{$\Diamond\Diamond\Diamond$} % Three diamond symbols
+\bigskip
+
+\section*{Materials}
+
+\begin{itemize}
+    \item Aluminum can
+    \item Steel wool or sandpaper
+    \item 250 mL beakers
+    \item 1.5 M potassium hydroxide, KOH
+    \item Hot plate
+    \item Büchner filter flask
+    \item Funnel
+    \item Filter paper
+    \item Vacuum line
+    \item Ice bath
+    \item 9 M sulfuric acid, H$_2$SO$_4$
+    \item Ethanol
+    \item Drying oven
+    \item Watch glass
+\end{itemize}
+
+\bigskip
+\centerline{$\Diamond\Diamond\Diamond$} % Three diamond symbols
+\bigskip
+
+\section*{Procedure}
+
+\begin{enumerate}
+    \item Cut open a soda can and remove the top/bottom to get a rectangle of metal. \textbf{Sand off the paint and lacquer} from both sides using steel wool or sandpaper. Make sure it’s completely clean, or you’ll end up with a \textbf{sticky yellow product} that won’t work later.
+    \item \textbf{Rinse} the metal with water and dry it.
+    \item Cut the metal into \textbf{1 cm squares} and weigh about \textbf{1 g} of these (\textbf{record the actual mass}).
+    \item Add the metal squares to a \textbf{250 mL beaker} with \textbf{40 mL of 1.5 M KOH}. Place the beaker on a \textbf{hot plate (in the fume hood)} and gently heat it, but \textbf{don’t let it boil}. Adjust the heat if bubbles start to form. This will take around \textbf{30 minutes}.
+    \item While waiting, \textbf{set up a filtration apparatus} using a \textbf{500 mL Buchner flask} and funnel. \textbf{Clamp it securely}, place filter paper in the funnel, and \textbf{wet it with deionized water}. Have the TF check your setup.
+    \item Once all the metal dissolves, \textbf{use gloves} to remove the beaker from the heat and let it cool slightly.
+    \item While still hot, \textbf{filter the mixture}. The filtrate should be clear—if not, filter again.
+    \item \textbf{Rinse the reaction beaker} with a maximum of \textbf{10 mL of deionized water} and pour it over the filter while the vacuum is running.
+    \item Once filtration is done, \textbf{turn off the vacuum} and note the solids on the filter paper and the liquid in the flask.
+    \item Transfer the filtrate to a \textbf{clean 250 mL beaker} and rinse the flask with another \textbf{10 mL of deionized water}, adding the rinse to the beaker.
+    \item Make an \textbf{ice bath} with equal parts ice and water, record its temperature, and \textbf{cool your filtrate} in it. Don’t let the beaker tip!
+    \item Add \textbf{20 mL of 9 M H$_2$SO$_4$} to the cold solution while stirring. \textbf{Note your observations}, stir for \textbf{2 minutes}, and remove from the ice bath.
+    \item \textbf{Heat the mixture} in the fume hood until the \textbf{solids dissolve} and the \textbf{solution clears}.
+    \item \textbf{Let the solution cool} to room temperature, then place it back in the ice bath to start \textbf{crystallization}. If nothing happens after 10 minutes, \textbf{scratch the beaker} with a glass rod to help.
+    \item Once crystallization starts, leave the solution in the ice bath for an additional \textbf{10 minutes}.
+    \item Reassemble and \textbf{clean your filtration apparatus}. Filter the crystals using vacuum. \textbf{Help transfer the solids} with a spatula and rinse the beaker with a little deionized water to get everything onto the filter.
+    \item \textbf{Wash the crystals} with \textbf{10 mL of ethanol} (first, disconnect the vacuum). Then reconnect the vacuum to dry the crystals.
+    \item Transfer the filtrate to a waste container and \textbf{pull air through the flask} for \textbf{10 minutes} to fully dry the crystals.
+    \item \textbf{Place the crystals on a watch glass} and put them in the oven at \textbf{80°C for 10 minutes} to remove any remaining water and ethanol.
+    \item Weigh your dried crystals by transferring them to a \textbf{pre-weighed watch glass} and \textbf{record the mass}.
+    \item \textbf{Label your crystals} with your group name and section, and store them as directed for next week.
+    \item Dispose of any waste in the \textbf{proper containers}, \textbf{clean up your workspace}, and return equipment. \textbf{Double-check} that the hot plate and vacuum are turned off.
+    \item Have the instructor \textbf{sign off} on your \textbf{cleaned workspace}.
+\end{enumerate}
+
+\bigskip
+\centerline{$\Diamond\Diamond\Diamond$} % Three diamond symbols
+\bigskip
+
+\section*{Observations and Records}
+
+\begin{enumerate}
+    \item \textbf{Mass of metal squares:} 
+	\\
+    \\
+    \rule{15cm}{0.4pt} % Line to fill in
+    
+    \item \textbf{Observations of the reaction in KOH:} \\
+	\\
+	\rule{15cm}{0.4pt} % Line to fill in
+	\\
+	\\
+	\rule{15cm}{0.4pt} % Line to fill in
+    
+    \item \textbf{Filtration observations (solids on filter paper and filtrate):} \\
+	\\
+	\rule{15cm}{0.4pt} % Line to fill in
+	\\
+	\\
+	\rule{15cm}{0.4pt} % Line to fill in
+    
+    \item \textbf{Temperature of ice bath:} \\
+	\\
+	\rule{15cm}{0.4pt} % Line to fill in
+    
+    \item \textbf{Observations upon adding 9 M H$_2$SO$_4$:} \\
+	\\
+	\rule{15cm}{0.4pt} % Line to fill in
+	\\
+	\\
+	\rule{15cm}{0.4pt} % Line to fill in
+    
+    \item \textbf{Observations of solution clearing after heating:} \\
+	\\
+	\rule{15cm}{0.4pt} % Line to fill in
+	\\
+	\\
+	\rule{15cm}{0.4pt} % Line to fill in
+    
+    \item \textbf{Observations of crystallization process:} \\
+	\\
+	\rule{15cm}{0.4pt} % Line to fill in
+	\\
+	\\
+	\rule{15cm}{0.4pt} % Line to fill in
+    
+    \item \textbf{Final mass of dried crystals:} \\
+	\\
+	\rule{15cm}{0.4pt} % Line to fill in
+\end{enumerate}
+
+
+\end{document}
