@@ -523,7 +523,7 @@ The absorption spectrum of an element is a unique pattern of dark lines or bands
 
 \subsection{How Absorption Spectra Work}
 
-When white light (which contains all visible wavelengths) passes through a sample of an element in its gaseous state, the electrons in the atoms of that element absorb specific amounts of energy. This energy corresponds to the difference between specific energy levels or orbits of the electrons. 
+When white light (which contains all visible wavelengths) passes through a sample of an element in its gaseous state, the electrons in the atoms of that element absorb specific amounts of energy. This energy corresponds to the difference between specific energy levels or orbits of the electrons.
 
 When electrons absorb this energy, they jump from a lower energy level to a higher energy level, creating an absorption event. Each element has a unique set of energy levels, so the wavelengths absorbed (or "dark lines" in the spectrum) are also unique to each element. These dark lines are referred to as \textbf{absorption lines}.
 
@@ -533,8 +533,8 @@ The absorption spectrum is closely related to the \textbf{emission spectrum} of 
 
 The emission lines and absorption lines occur at the same wavelengths for any given element, but they appear differently in the spectra:
 \begin{itemize}
-    \item \textbf{Emission Spectrum}: Bright lines on a dark background, representing wavelengths emitted by electrons falling to lower energy levels.
-    \item \textbf{Absorption Spectrum}: Dark lines on a bright (continuous) background, representing wavelengths absorbed by electrons jumping to higher energy levels.
+	\item \textbf{Emission Spectrum}: Bright lines on a dark background, representing wavelengths emitted by electrons falling to lower energy levels.
+	\item \textbf{Absorption Spectrum}: Dark lines on a bright (continuous) background, representing wavelengths absorbed by electrons jumping to higher energy levels.
 \end{itemize}
 
 \subsection{Example: Hydrogen Absorption Spectrum}
@@ -543,7 +543,7 @@ The hydrogen atom, for example, has a simple absorption spectrum. It consists of
 
 Below is a simplified representation of the absorption spectrum of hydrogen:
 \[
-\text{--- --- --- --- ---}
+	\text{--- --- --- --- ---}
 \]
 The dark lines represent wavelengths absorbed by the hydrogen atoms.
 
@@ -551,25 +551,352 @@ The dark lines represent wavelengths absorbed by the hydrogen atoms.
 
 Absorption spectra are used in a variety of scientific fields to:
 \begin{itemize}
-    \item Identify elements present in stars and distant astronomical objects.
-    \item Determine the chemical composition of substances.
-    \item Study the energy levels and quantum mechanics of atoms and molecules.
+	\item Identify elements present in stars and distant astronomical objects.
+	\item Determine the chemical composition of substances.
+	\item Study the energy levels and quantum mechanics of atoms and molecules.
 \end{itemize}
 
 Since each element has a unique absorption spectrum, this technique allows scientists to detect and analyze the presence of different elements based on the pattern of dark lines that appear in a spectrum.
 
 \begin{center}
-    \begin{tikzpicture}[scale=1.0]
-        % Continuous spectrum
-        \shade[left color=white, right color=black] (0, 0) rectangle (10, 0.5);
-        % Absorption lines
-        \draw[very thick, white] (2, 0) -- (2, 0.5);
-        \draw[very thick, white] (4, 0) -- (4, 0.5);
-        \draw[very thick, white] (6, 0) -- (6, 0.5);
-        \draw[very thick, white] (8, 0) -- (8, 0.5);
-    \end{tikzpicture}
+	\begin{tikzpicture}[scale=1.0]
+		% Continuous spectrum
+		\shade[left color=white, right color=black] (0, 0) rectangle (10, 0.5);
+		% Absorption lines
+		\draw[very thick, white] (2, 0) -- (2, 0.5);
+		\draw[very thick, white] (4, 0) -- (4, 0.5);
+		\draw[very thick, white] (6, 0) -- (6, 0.5);
+		\draw[very thick, white] (8, 0) -- (8, 0.5);
+	\end{tikzpicture}
 \end{center}
 
 In this diagram, the gradient from white to black represents the continuous spectrum of light, while the vertical white lines represent absorption lines where specific wavelengths are absorbed by the element.
+
+\section{Rydberg Equations and Emission Spectra}
+
+The study of atomic emission spectra is crucial for understanding the quantized nature of energy levels within an atom. One of the fundamental equations used to describe the emission spectrum of hydrogen and similar atoms is the \textbf{Rydberg equation}. This equation predicts the wavelength of light emitted or absorbed when an electron transitions between different energy levels.
+
+\subsection{Rydberg Equation}
+
+The Rydberg equation is given by:
+\[
+	\frac{1}{\lambda} = R_H \left( \frac{1}{n_1^2} - \frac{1}{n_2^2} \right),
+\]
+where:
+\begin{itemize}
+	\item $\lambda$ is the wavelength of the emitted or absorbed photon.
+	\item $R_H$ is the Rydberg constant for hydrogen, approximately $1.097 \times 10^7 \, \text{m}^{-1}$.
+	\item $n_1$ and $n_2$ are the principal quantum numbers of the electron before and after the transition, with $n_2 > n_1$.
+\end{itemize}
+
+The equation essentially quantifies the relationship between the energy difference of two electron states and the wavelength of the photon emitted or absorbed during the electron's transition.
+
+\subsection{Emission Spectrum of Hydrogen}
+
+The emission spectrum of hydrogen is characterized by distinct lines, known as spectral lines, which correspond to the different possible transitions between energy levels in the atom. These series of lines are grouped into different spectral series based on the final quantum number $n_1$:
+\begin{itemize}
+	\item \textbf{Lyman series}: Transitions to $n_1 = 1$, resulting in ultraviolet radiation.
+	\item \textbf{Balmer series}: Transitions to $n_1 = 2$, resulting in visible light.
+	\item \textbf{Paschen series}: Transitions to $n_1 = 3$, resulting in infrared radiation.
+\end{itemize}
+
+Each spectral line within a series corresponds to a specific electron transition, and the wavelength of each line can be calculated using the Rydberg equation.
+
+\subsection{Energy Levels and Photon Emission}
+
+The energy difference between two quantum states in a hydrogen atom is given by:
+\[
+	\Delta E = E_{n_2} - E_{n_1} = -13.6 \, \text{eV} \left( \frac{1}{n_2^2} - \frac{1}{n_1^2} \right),
+\]
+where $-13.6 \, \text{eV}$ is the ground state energy of hydrogen. When an electron transitions from a higher energy state ($n_2$) to a lower one ($n_1$), a photon is emitted with energy:
+\[
+	E_{\text{photon}} = h \nu = \frac{hc}{\lambda},
+\]
+where:
+\begin{itemize}
+	\item $h$ is Planck’s constant ($6.626 \times 10^{-34} \, \text{Js}$).
+	\item $\nu$ is the frequency of the photon.
+	\item $c$ is the speed of light ($3.0 \times 10^8 \, \text{m/s}$).
+\end{itemize}
+By combining this with the Rydberg equation, one can relate the energy of the emitted photon to the observed wavelength of the spectral line.
+
+\subsection{Applications of Rydberg Equation}
+
+The Rydberg equation is not only crucial for predicting the emission spectrum of hydrogen but also for understanding other one-electron systems like He$^+$, Li$^{2+}$, and so forth. By studying the emission spectra of various elements, scientists can gain insights into the structure of atoms and the quantized nature of their energy levels. The emission spectra are also used in astrophysics to identify the elements present in distant stars and galaxies by comparing observed spectral lines with known values.
+
+\section{Max Planck’s 1900 Theory and the Relationship $E = h\nu$}
+
+In the early 1900s, Max Planck introduced a revolutionary concept that laid the foundation for quantum mechanics. To address the problem of blackbody radiation, Planck proposed that electromagnetic energy could only be emitted or absorbed in discrete units, or "quanta." This concept was a significant departure from classical physics and led to the development of the famous relationship:
+
+\[
+	E = h \nu,
+\]
+
+where:
+\begin{itemize}
+	\item $E$ is the energy of a quantum (or photon) of electromagnetic radiation.
+	\item $h$ is Planck’s constant, with a value of approximately $6.626 \times 10^{-34} \, \text{Js}$.
+	\item $\nu$ (or $f$) is the frequency of the electromagnetic radiation.
+\end{itemize}
+
+\subsection{The Blackbody Radiation Problem}
+
+Classical physics predicted that a blackbody (an idealized physical body that absorbs all incident electromagnetic radiation) would emit radiation with an intensity that increases infinitely as the wavelength decreases (known as the “ultraviolet catastrophe”). However, experimental observations showed that the intensity reaches a peak and then drops off at shorter wavelengths. This discrepancy between theory and experiment led to the need for a new understanding of how radiation is emitted.
+
+\subsection{Planck's Solution: Quantization of Energy}
+
+Planck hypothesized that the energy emitted by a blackbody could only take on discrete values, rather than being continuous. He proposed that the energy of each quantum of radiation is proportional to its frequency, leading to the equation:
+\[
+	E = h \nu.
+\]
+
+This assumption meant that electromagnetic radiation is quantized and that the energy levels are spaced in multiples of $h \nu$. In essence, energy could only be emitted or absorbed in “packets” or quanta, not as a continuous wave.
+
+\subsection{Implications of Planck's Theory}
+
+Planck’s theory successfully explained the blackbody radiation spectrum, and the constant $h$, later known as Planck's constant, became a fundamental constant in quantum mechanics. This idea of quantization was groundbreaking because it introduced the concept that energy is not infinitely divisible, contradicting the classical wave theory of light.
+
+The relationship $E = h \nu$ implies that higher frequency (shorter wavelength) radiation has more energy per photon. This paved the way for the development of quantum theory and influenced subsequent discoveries, including:
+\begin{itemize}
+	\item \textbf{Photoelectric Effect}: Albert Einstein used Planck’s concept to explain the photoelectric effect in 1905, showing that light can eject electrons from a material if the frequency is above a certain threshold. This provided further evidence of the particle-like behavior of light.
+	\item \textbf{Wave-Particle Duality}: Planck’s work suggested that light exhibits both wave-like and particle-like properties, an idea that became central to quantum mechanics.
+	\item \textbf{Quantum Energy Levels}: The concept of quantized energy levels led to the understanding of atomic structure and the development of quantum mechanical models, where electrons occupy discrete energy states around the nucleus.
+\end{itemize}
+
+\subsection{Applications and Further Developments}
+
+Planck’s relationship, $E = h \nu$, has vast implications in various fields of physics and chemistry. It underpins the understanding of atomic spectra, molecular vibrations, and electronic transitions. It also plays a crucial role in technologies such as lasers, semiconductors, and quantum computing.
+
+Overall, Planck’s introduction of the quantization of energy marked the beginning of a new era in physics, laying the groundwork for the development of quantum mechanics and fundamentally changing our understanding of the physical world.
+
+\subsection{Quantized Emission Spectra}
+
+
+\begin{center}
+	\begin{tikzpicture}
+		% Draw the energy levels
+		\draw[thick] (0,0) -- (4,0) node[right] {$n=1$};
+		\draw[thick] (0,2) -- (4,2) node[right] {$n=2$};
+		\draw[thick] (0,3) -- (4,3) node[right] {$n=3$};
+		\draw[thick] (0,3.7) -- (4,3.7) node[right] {$n=4$};
+		\draw[thick] (0,4.2) -- (4,4.2) node[right] {$n=5$};
+		\draw[thick] (0,4.6) -- (4,4.6) node[right] {$n=6$};
+		\draw[thick] (0,5) -- (4,5) node[right] {$n=\infty$};
+
+		% Draw arrows indicating transitions
+		\draw[->, thick, red] (2,3) -- (2,0) node[midway, left] {\footnotesize Lyman Series};
+		\draw[->, thick, blue] (3,4.2) -- (3,2) node[midway, left] {\footnotesize Balmer Series};
+		\draw[->, thick, green] (4,4.6) -- (4,3) node[midway, left] {\footnotesize Paschen Series};
+
+		% Add energy labels
+		\node[left] at (0,0) {$-13.6 \, \text{eV}$};
+		\node[left] at (0,2) {$-3.4 \, \text{eV}$};
+		\node[left] at (0,3) {$-1.51 \, \text{eV}$};
+		\node[left] at (0,3.7) {$-0.85 \, \text{eV}$};
+		\node[left] at (0,4.2) {$-0.54 \, \text{eV}$};
+		\node[left] at (0,4.6) {$-0.38 \, \text{eV}$};
+		\node[left] at (0,5) {$0 \, \text{eV}$};
+
+		% Labels
+		\node at (2,-0.5) {Hydrogen Energy Levels};
+	\end{tikzpicture}
+\end{center}
+
+\section{The Photoelectric Effect}
+
+The photoelectric effect is a phenomenon in which electrons are ejected from the surface of a material (usually a metal) when it is exposed to light of sufficient frequency. The experimental observations of the photoelectric effect could not be explained by classical wave theory and led to the development of quantum theory. Albert Einstein provided the explanation for this effect in 1905 by extending Max Planck's concept of quantization of energy.
+
+\subsection{Einstein’s Explanation}
+
+According to Einstein, light consists of packets of energy called "photons," each with an energy $E$ given by:
+\[
+	E = h f,
+\]
+where:
+\begin{itemize}
+	\item $h$ is Planck’s constant ($6.626 \times 10^{-34} \, \text{Js}$).
+	\item $f$ is the frequency of the incident light.
+\end{itemize}
+
+When a photon hits the surface of a material, its energy is transferred to an electron. If the photon's energy is greater than a certain minimum energy needed to free the electron (known as the \textbf{work function} $\Phi$ of the material), the electron is ejected from the surface.
+
+\subsection{The Photoelectric Equation}
+
+The maximum kinetic energy $E_{\text{max}}$ of the ejected electron is given by the equation:
+\[
+	E_{\text{max}} = h f - \Phi,
+\]
+where:
+\begin{itemize}
+	\item $E_{\text{max}}$ is the maximum kinetic energy of the ejected electron.
+	\item $h f$ is the energy of the incident photon.
+	\item $\Phi$ is the work function of the material, which is the minimum energy required to free an electron from the surface.
+\end{itemize}
+
+This equation implies that the kinetic energy of the ejected electron depends linearly on the frequency of the incident light, and there is a threshold frequency $f_{\text{threshold}}$ below which no electrons are ejected, regardless of the intensity of the light.
+
+\subsection{Stopping Voltage and Kinetic Energy}
+
+The kinetic energy of the ejected electrons can be measured experimentally using a stopping voltage $V_s$. The stopping voltage is the voltage required to stop the ejected electrons from reaching the detector. The relationship between the stopping voltage and the kinetic energy is given by:
+\[
+	E_{\text{max}} = e V_s,
+\]
+where:
+\begin{itemize}
+	\item $e$ is the charge of the electron ($1.602 \times 10^{-19} \, \text{C}$).
+	\item $V_s$ is the stopping voltage.
+\end{itemize}
+
+By measuring the stopping voltage for different frequencies of light, one can determine the work function $\Phi$ of the material and verify the linear relationship between $E_{\text{max}}$ and the frequency $f$ of the incident light.
+
+\subsection{Significance of the Photoelectric Effect}
+
+The photoelectric effect provided strong evidence for the quantization of light and supported the particle-like behavior of photons. This was a crucial step in the development of quantum mechanics. The effect also showed that the energy of ejected electrons is independent of the light’s intensity (which only affects the number of emitted electrons) and is instead solely dependent on the frequency of the incident light.
+
+Applications of the photoelectric effect are found in various technologies, including photodetectors, solar cells, and photoelectron spectroscopy.
+
+\subsection{Graph of Voltage vs. Kinetic Energy}
+
+The photoelectric equation $E_{\text{max}} = h f - \Phi$ shows that the maximum kinetic energy of ejected electrons is linearly dependent on the frequency of the incident light. Experimentally, this relationship can be studied by plotting the stopping voltage $V_s$ (which is directly proportional to $E_{\text{max}}$) against the frequency $f$ of the incident light.
+
+
+\begin{center}
+	\begin{tikzpicture}
+		% Axes
+		\draw[->] (0,0) -- (7,0) node[right] {Frequency $f$ (Hz)};
+		\draw[->] (0,0) -- (0,5) node[above] {Stopping Voltage $V_s$ (V)};
+
+		% Line representing the photoelectric equation
+		\draw[thick, blue] (1,0.5) -- (6,4.5) node[midway, above, sloped] {$V_s = \frac{h}{e}f - \frac{\Phi}{e}$};
+
+		% Dots and line at threshold frequency
+		\draw[dashed] (1,0) -- (1,0.5);
+		\node[below] at (1,0) {$f_{\text{threshold}}$};
+
+		% Labels for slope and intercept
+		\node[above right] at (5,4) {Slope = $\frac{h}{e}$};
+		\node[left] at (0,0.5) {$-\frac{\Phi}{e}$};
+
+		% Label for graph
+		\node at (3.5,-1) {Graph of Stopping Voltage $V_s$ vs. Frequency $f$};
+	\end{tikzpicture}
+\end{center}
+
+\subsection{Explanation of the Graph}
+
+The graph above represents the relationship between the stopping voltage $V_s$ and the frequency of the incident light $f$. The linear equation governing this relationship is:
+\[
+	V_s = \frac{h}{e} f - \frac{\Phi}{e},
+\]
+where:
+\begin{itemize}
+	\item $h$ is Planck’s constant.
+	\item $e$ is the charge of an electron.
+	\item $\Phi$ is the work function of the material.
+\end{itemize}
+
+In this graph:
+\begin{itemize}
+	\item The \textbf{slope} of the line is $\frac{h}{e}$. Since $h$ is Planck's constant and $e$ is a known constant (the electron charge), the slope provides a way to determine Planck's constant experimentally.
+	\item The \textbf{y-intercept} is $-\frac{\Phi}{e}$, which corresponds to the work function of the material divided by the electron charge. This intercept is negative, as it represents the minimum energy needed to eject an electron.
+	\item The point at which the line intersects the $f$-axis is the \textbf{threshold frequency} $f_{\text{threshold}}$. For frequencies below this value, no electrons are emitted because the photon's energy is insufficient to overcome the work function $\Phi$.
+\end{itemize}
+
+The linear nature of this graph is a direct consequence of the photoelectric effect and provides evidence for the quantization of energy in photons. By measuring the slope of this line, one can experimentally determine the value of Planck's constant $h$.
+
+\section{Quantized Momentum of an Electron and Standing Waves in Orbits}
+
+In the Bohr model of the atom, electrons are assumed to occupy discrete orbits around the nucleus. One of the key ideas is that the angular momentum of an electron in these orbits is quantized. Specifically, the angular momentum $L$ is given by:
+\[
+L = n \hbar,
+\]
+where:
+\begin{itemize}
+    \item $n$ is a positive integer (the principal quantum number).
+    \item $\hbar$ is the reduced Planck's constant ($\hbar = \frac{h}{2\pi}$).
+\end{itemize}
+
+This quantization arises because the electron behaves as a standing wave in its orbit. For a stable orbit, the circumference of the orbit must be an integer multiple of the electron's wavelength $\lambda$:
+\[
+2 \pi r = n \lambda,
+\]
+where $r$ is the radius of the orbit.
+
+
+\begin{center}
+	\begin{tikzpicture}
+	    % Nucleus
+	    \filldraw (0,0) circle (2pt) node[left] {Nucleus};
+	
+	    % Orbits
+	    \draw[thick, dashed] (0,0) circle (2);
+	    \draw[thick, dashed] (0,0) circle (3.5);
+	    
+	    % Standing wave in the first orbit (n=1)
+	    \foreach \i in {0,60,...,360}
+	        \draw[thick, blue] ({2*cos(\i)},{2*sin(\i)}) -- ({2*cos(\i+60)},{2*sin(\i+60)});
+	    \node at (2.2,1.5) {$n=1$};
+	    
+	    % Standing wave in the second orbit (n=2)
+	    \foreach \i in {0,30,...,360}
+	        \draw[thick, red] ({3.5*cos(\i)},{3.5*sin(\i)}) -- ({3.5*cos(\i+30)},{3.5*sin(\i+30)});
+	    \node at (3.7,2.5) {$n=2$};
+	
+	    % Labels
+	    \node at (2.3,-3) {Standing Waves in Electron Orbits};
+	\end{tikzpicture}
+\end{center}
+
+\subsection{Standing Waves and Quantized Orbits}
+
+For each allowed orbit, the electron’s de Broglie wavelength $\lambda$ fits perfectly into the circumference of the orbit, creating a standing wave. This condition ensures that only specific, quantized orbits are possible, corresponding to different values of $n$. The quantization of angular momentum restricts electrons to these stable orbits, preventing them from spiraling into the nucleus.
+
+In the diagram:
+\begin{itemize}
+    \item The dashed circles represent possible orbits.
+    \item The blue and red standing waves correspond to $n=1$ and $n=2$, respectively, showing how the electron’s wave fits into each orbit.
+\end{itemize}
+
+\subsection{Radius of the Orbit of an Electron Around a Hydrogen Atom}
+
+According to the Bohr model of the hydrogen atom, the radius of the electron’s orbit is quantized and given by the formula:
+\[
+r_n = \frac{n^2 \hbar^2}{k e^2 m_e} = n^2 a_0,
+\]
+where:
+\begin{itemize}
+    \item $r_n$ is the radius of the $n$-th orbit.
+    \item $n$ is the principal quantum number ($n = 1, 2, 3, \ldots$).
+    \item $\hbar$ is the reduced Planck's constant, given by $\hbar = \frac{h}{2\pi}$.
+    \item $k$ is Coulomb’s constant, $k = \frac{1}{4 \pi \epsilon_0}$.
+    \item $e$ is the elementary charge (the charge of an electron).
+    \item $m_e$ is the mass of the electron.
+    \item $a_0$ is the Bohr radius, defined as:
+    \[
+    a_0 = \frac{\hbar^2}{k e^2 m_e}.
+    \]
+\end{itemize}
+
+The Bohr radius $a_0$ is approximately $5.29 \times 10^{-11} \, \text{m}$, which is the radius of the first orbit ($n = 1$) in a hydrogen atom. 
+
+Thus, the radius of the $n$-th orbit is directly proportional to the square of the quantum number $n$, meaning that higher orbits are much larger than lower ones.
+\subsection{Quantized Momentum of an Electron}
+
+In the Bohr model of the atom, the momentum of an electron is quantized due to its wave-like nature. The electron behaves as a standing wave around the nucleus, and only certain orbits are allowed where the circumference of the orbit is an integer multiple of the electron's wavelength:
+\[
+2 \pi r = n \lambda,
+\]
+where $r$ is the radius of the orbit, $n$ is a positive integer (the principal quantum number), and $\lambda$ is the de Broglie wavelength of the electron.
+
+Since the de Broglie wavelength is related to momentum $p$ by:
+\[
+\lambda = \frac{h}{p},
+\]
+the quantization condition becomes:
+\[
+p = \frac{n \hbar}{r},
+\]
+where $\hbar = \frac{h}{2\pi}$. This shows that the electron’s momentum is quantized, allowing only specific values for each orbit.
+
 
 \end{document}

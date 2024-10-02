@@ -1,47 +1,69 @@
-\contentsline {chapter}{\numberline {1}Atomic Theory and the Nature of Modern Chemistry}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}1.1 - The Nature of Modern Chemistry}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}The Atom in Modern Chemistry}{2}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Lavoisier: Conservation of Mass and Energy}{2}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Proust: Law of Constant Composition}{3}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Dalton: Law of Multiple Proportions}{3}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Gay-Lussac: Law of Combining Volumes}{3}{subsection.1.2.4}%
-\contentsline {section}{\numberline {1.3}1.2 - Elements: The Building Blocks of Matter}{4}{section.1.3}%
-\contentsline {section}{\numberline {1.4}1.3 - Indirect Evidence for the Existence of Atoms}{4}{section.1.4}%
-\contentsline {section}{\numberline {1.5}1.4 - The Physical Structure of Atoms}{4}{section.1.5}%
-\contentsline {section}{\numberline {1.6}1.5 - Mass Spectrometry and Isotopes}{4}{section.1.6}%
-\contentsline {section}{\numberline {1.7}1.6 - The Mole: Counting Molecules by Weighing}{4}{section.1.7}%
-\contentsline {chapter}{\numberline {2}19 - Nucleosynthesis of the Elements}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}19.1 - Mass-Energy in Nuclei}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}19.2 - Nuclear Decay}{5}{section.2.2}%
-\contentsline {section}{\numberline {2.3}19.6 - Nuclear Fusion}{6}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Chemical Structures}{8}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Drawing Lewis Dot Structures}{8}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Steps to Draw a Lewis Dot Structure}{8}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Example Structures}{8}{subsection.3.1.2}%
-\contentsline {subsubsection}{Water (H\textsubscript {2}O)}{8}{section*.2}%
-\contentsline {subsubsection}{Carbon Dioxide (CO\textsubscript {2})}{8}{section*.3}%
-\contentsline {section}{\numberline {3.2}Common Molecular Shapes}{9}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}2 Electron Pairs - Linear - AX\textsubscript {2}}{9}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}3 Electron Pairs - Trigonal Planar - AX\textsubscript {3}}{9}{subsection.3.2.2}%
-\contentsline {subsubsection}{3 Electron Pairs (1 Lone Pair) - Bent - AX\textsubscript {2}E}{9}{section*.4}%
-\contentsline {subsection}{\numberline {3.2.3}4 Electron Pairs - Tetrahedral - AX\textsubscript {4}}{9}{subsection.3.2.3}%
-\contentsline {subsubsection}{4 Electron Pairs (1 Lone Pair) - Trigonal Pyramidal - AX\textsubscript {3}E}{9}{section*.5}%
-\contentsline {subsubsection}{4 Electron Pairs (2 Lone Pairs) - Bent AX\textsubscript {2}E\textsubscript {2}}{9}{section*.6}%
-\contentsline {subsection}{\numberline {3.2.4}5 Electron Pairs - Trigonal Bipyramidal}{10}{subsection.3.2.4}%
-\contentsline {subsubsection}{5 Electron Pairs (1 Lone Pair) - Seesaw}{10}{section*.7}%
-\contentsline {subsubsection}{5 Electron Pairs (2 Lone Pairs) - T-Shaped}{10}{section*.8}%
-\contentsline {subsubsection}{5 Electron Pairs (3 Lone Pairs) - Linear}{10}{section*.9}%
-\contentsline {subsection}{\numberline {3.2.5}6 Electron Pairs - Octahedral}{10}{subsection.3.2.5}%
-\contentsline {subsubsection}{6 Electron Pairs (1 Lone Pair) - Square Pyramidal}{10}{section*.10}%
-\contentsline {subsubsection}{6 Electron Pairs (2 Lone Pairs) - Square Planar}{11}{section*.11}%
-\contentsline {subsection}{\numberline {3.2.6}7 Electron Pairs - Pentagonal Bipyramidal}{11}{subsection.3.2.6}%
-\contentsline {chapter}{\numberline {4}Quantum Mechanics}{12}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Electromagnetic Fields in Light}{12}{section.4.1}%
-\contentsline {section}{\numberline {4.2}The Wave Equation: \(c = f \lambda \)}{12}{section.4.2}%
-\contentsline {section}{\numberline {4.3}The Electromagnetic Spectrum}{12}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Absorption Spectrum of Elements}{13}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}How Absorption Spectra Work}{13}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Relationship to Emission Spectrum}{13}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Example: Hydrogen Absorption Spectrum}{13}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Applications of Absorption Spectra}{14}{subsection.4.4.4}%
+\contentsline {chapter}{\numberline {1}Atomic Theory and the Nature of Modern Chemistry}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}1.1 - The Nature of Modern Chemistry}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}The Atom in Modern Chemistry}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Lavoisier: Conservation of Mass and Energy}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Proust: Law of Constant Composition}{4}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Dalton: Law of Multiple Proportions}{4}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Gay-Lussac: Law of Combining Volumes}{4}{subsection.1.2.4}%
+\contentsline {section}{\numberline {1.3}1.2 - Elements: The Building Blocks of Matter}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.4}1.3 - Indirect Evidence for the Existence of Atoms}{5}{section.1.4}%
+\contentsline {section}{\numberline {1.5}1.4 - The Physical Structure of Atoms}{5}{section.1.5}%
+\contentsline {section}{\numberline {1.6}1.5 - Mass Spectrometry and Isotopes}{5}{section.1.6}%
+\contentsline {section}{\numberline {1.7}1.6 - The Mole: Counting Molecules by Weighing}{5}{section.1.7}%
+\contentsline {chapter}{\numberline {2}19 - Nucleosynthesis of the Elements}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}19.1 - Mass-Energy in Nuclei}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}19.2 - Nuclear Decay}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}19.6 - Nuclear Fusion}{7}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Chemical Structures}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Drawing Lewis Dot Structures}{9}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Steps to Draw a Lewis Dot Structure}{9}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Example Structures}{9}{subsection.3.1.2}%
+\contentsline {subsubsection}{Water (H\textsubscript {2}O)}{9}{section*.2}%
+\contentsline {subsubsection}{Carbon Dioxide (CO\textsubscript {2})}{9}{section*.3}%
+\contentsline {section}{\numberline {3.2}Common Molecular Shapes}{10}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}2 Electron Pairs - Linear - AX\textsubscript {2}}{10}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}3 Electron Pairs - Trigonal Planar - AX\textsubscript {3}}{10}{subsection.3.2.2}%
+\contentsline {subsubsection}{3 Electron Pairs (1 Lone Pair) - Bent - AX\textsubscript {2}E}{10}{section*.4}%
+\contentsline {subsection}{\numberline {3.2.3}4 Electron Pairs - Tetrahedral - AX\textsubscript {4}}{10}{subsection.3.2.3}%
+\contentsline {subsubsection}{4 Electron Pairs (1 Lone Pair) - Trigonal Pyramidal - AX\textsubscript {3}E}{10}{section*.5}%
+\contentsline {subsubsection}{4 Electron Pairs (2 Lone Pairs) - Bent AX\textsubscript {2}E\textsubscript {2}}{10}{section*.6}%
+\contentsline {subsection}{\numberline {3.2.4}5 Electron Pairs - Trigonal Bipyramidal}{11}{subsection.3.2.4}%
+\contentsline {subsubsection}{5 Electron Pairs (1 Lone Pair) - Seesaw}{11}{section*.7}%
+\contentsline {subsubsection}{5 Electron Pairs (2 Lone Pairs) - T-Shaped}{11}{section*.8}%
+\contentsline {subsubsection}{5 Electron Pairs (3 Lone Pairs) - Linear}{11}{section*.9}%
+\contentsline {subsection}{\numberline {3.2.5}6 Electron Pairs - Octahedral}{11}{subsection.3.2.5}%
+\contentsline {subsubsection}{6 Electron Pairs (1 Lone Pair) - Square Pyramidal}{11}{section*.10}%
+\contentsline {subsubsection}{6 Electron Pairs (2 Lone Pairs) - Square Planar}{12}{section*.11}%
+\contentsline {subsection}{\numberline {3.2.6}7 Electron Pairs - Pentagonal Bipyramidal}{12}{subsection.3.2.6}%
+\contentsline {chapter}{\numberline {4}Quantum Mechanics}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Electromagnetic Fields in Light}{13}{section.4.1}%
+\contentsline {section}{\numberline {4.2}The Wave Equation: \(c = f \lambda \)}{13}{section.4.2}%
+\contentsline {section}{\numberline {4.3}The Electromagnetic Spectrum}{13}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Absorption Spectrum of Elements}{14}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}How Absorption Spectra Work}{14}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Relationship to Emission Spectrum}{14}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Example: Hydrogen Absorption Spectrum}{14}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Applications of Absorption Spectra}{15}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Rydberg Equations and Emission Spectra}{15}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Rydberg Equation}{15}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Emission Spectrum of Hydrogen}{15}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Energy Levels and Photon Emission}{16}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Applications of Rydberg Equation}{16}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Max Planck’s 1900 Theory and the Relationship $E = h\nu $}{16}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}The Blackbody Radiation Problem}{16}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Planck's Solution: Quantization of Energy}{17}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Implications of Planck's Theory}{17}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Applications and Further Developments}{17}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.5}Quantized Emission Spectra}{17}{subsection.4.6.5}%
+\contentsline {section}{\numberline {4.7}The Photoelectric Effect}{18}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Einstein’s Explanation}{18}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}The Photoelectric Equation}{18}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Stopping Voltage and Kinetic Energy}{18}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Significance of the Photoelectric Effect}{19}{subsection.4.7.4}%
+\contentsline {subsection}{\numberline {4.7.5}Graph of Voltage vs. Kinetic Energy}{19}{subsection.4.7.5}%
+\contentsline {subsection}{\numberline {4.7.6}Explanation of the Graph}{19}{subsection.4.7.6}%
+\contentsline {section}{\numberline {4.8}Quantized Momentum of an Electron and Standing Waves in Orbits}{20}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Standing Waves and Quantized Orbits}{20}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Radius of the Orbit of an Electron Around a Hydrogen Atom}{20}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Quantized Momentum of an Electron}{21}{subsection.4.8.3}%
 \contentsfinish 
