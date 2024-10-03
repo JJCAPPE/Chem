@@ -45,25 +45,22 @@
 \contentsline {subsection}{\numberline {4.4.3}Example: Hydrogen Absorption Spectrum}{14}{subsection.4.4.3}%
 \contentsline {subsection}{\numberline {4.4.4}Applications of Absorption Spectra}{15}{subsection.4.4.4}%
 \contentsline {section}{\numberline {4.5}Rydberg Equations and Emission Spectra}{15}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Rydberg Equation}{15}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Emission Spectrum of Hydrogen}{15}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Energy Levels and Photon Emission}{16}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Applications of Rydberg Equation}{16}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.1}Applications of Rydberg Equation}{16}{subsection.4.5.1}%
 \contentsline {section}{\numberline {4.6}Max Planck’s 1900 Theory and the Relationship $E = h\nu $}{16}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}The Blackbody Radiation Problem}{16}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Planck's Solution: Quantization of Energy}{17}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.2}Planck's Solution: Quantization of Energy}{16}{subsection.4.6.2}%
 \contentsline {subsection}{\numberline {4.6.3}Implications of Planck's Theory}{17}{subsection.4.6.3}%
 \contentsline {subsection}{\numberline {4.6.4}Applications and Further Developments}{17}{subsection.4.6.4}%
 \contentsline {subsection}{\numberline {4.6.5}Quantized Emission Spectra}{17}{subsection.4.6.5}%
-\contentsline {section}{\numberline {4.7}The Photoelectric Effect}{18}{section.4.7}%
+\contentsline {section}{\numberline {4.7}The Photoelectric Effect}{17}{section.4.7}%
 \contentsline {subsection}{\numberline {4.7.1}Einstein’s Explanation}{18}{subsection.4.7.1}%
 \contentsline {subsection}{\numberline {4.7.2}The Photoelectric Equation}{18}{subsection.4.7.2}%
 \contentsline {subsection}{\numberline {4.7.3}Stopping Voltage and Kinetic Energy}{18}{subsection.4.7.3}%
-\contentsline {subsection}{\numberline {4.7.4}Significance of the Photoelectric Effect}{19}{subsection.4.7.4}%
+\contentsline {subsection}{\numberline {4.7.4}Significance of the Photoelectric Effect}{18}{subsection.4.7.4}%
 \contentsline {subsection}{\numberline {4.7.5}Graph of Voltage vs. Kinetic Energy}{19}{subsection.4.7.5}%
 \contentsline {subsection}{\numberline {4.7.6}Explanation of the Graph}{19}{subsection.4.7.6}%
-\contentsline {section}{\numberline {4.8}Quantized Momentum of an Electron and Standing Waves in Orbits}{20}{section.4.8}%
+\contentsline {section}{\numberline {4.8}Quantized Momentum of an Electron and Standing Waves in Orbits}{19}{section.4.8}%
 \contentsline {subsection}{\numberline {4.8.1}Standing Waves and Quantized Orbits}{20}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Radius of the Orbit of an Electron Around a Hydrogen Atom}{20}{subsection.4.8.2}%
-\contentsline {subsection}{\numberline {4.8.3}Quantized Momentum of an Electron}{21}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4.8.2}Quantized Momentum of an Electron}{20}{subsection.4.8.2}%
+\contentsline {section}{\numberline {4.9}Heisenberg Uncertainty Principle}{21}{section.4.9}%
 \contentsfinish 
