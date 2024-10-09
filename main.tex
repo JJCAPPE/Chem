@@ -11,6 +11,9 @@
 \usepackage{smartdiagram}
 \usepackage{graphicx}
 \usepackage{chemfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usetikzlibrary{shapes, positioning}
 
 \usepackage{amssymb}  % For additional symbols if needed
 \usesmartdiagramlibrary{additions}
@@ -881,7 +884,7 @@ The Heisenberg Uncertainty Principle is a fundamental concept in quantum mechani
 The principle is mathematically represented by the inequality:
 
 \[
-\boxed{\Delta x \cdot \Delta p \geq \frac{\hbar}{4 \pi}}
+	\boxed{\Delta x \cdot \Delta p \geq \frac{\hbar}{4 \pi}}
 \]
 
 where:
@@ -894,7 +897,7 @@ In other words, the product of the uncertainties in position and momentum can ne
 A similar relationship exists between the uncertainties in energy and time, given by:
 
 \[
-\boxed{\Delta E \cdot \Delta t \geq \frac{\hbar}{4 \pi}}
+	\boxed{\Delta E \cdot \Delta t \geq \frac{\hbar}{4 \pi}}
 \]
 
 where:
@@ -904,5 +907,213 @@ where:
 This relationship arises because a particle's energy and the time over which it is measured are also complementary variables, meaning that a precise measurement of one leads to increased uncertainty in the other.
 
 The Heisenberg Uncertainty Principle emphasizes the inherent limitations in our ability to measure certain pairs of physical properties simultaneously, reflecting the fundamental nature of quantum systems.
+
+
+\section{Schrödinger's Equation and Atomic Orbitals}
+
+Schrödinger's equation describes the behavior of quantum particles, particularly electrons in an atom. The time-independent form of the equation is:
+
+\begin{equation}
+	\hat{H}\psi = E\psi
+\end{equation}
+
+where $\hat{H}$ is the Hamiltonian operator, $\psi$ is the wavefunction, and $E$ is the energy of the system. In the context of atoms, solving this equation for electrons leads to quantized energy levels and wavefunctions, known as orbitals.
+
+To reflect the symmetry of the atom, the wavefunction is expressed in spherical coordinates $(r, \theta, \phi)$ rather than Cartesian coordinates $(x, y, z)$. This simplifies the equation due to the spherical symmetry of the Coulomb potential around the nucleus, making it easier to solve for orbitals:
+
+\begin{equation}
+	\psi_{n,l,m_l}(r, \theta, \phi) = R(r)_{n,l}Y(\theta, \phi)_{l}
+\end{equation}
+
+Here, $R(r)$ describes the radial part, and $Y(\theta, \phi)$ represents the angular part of the wavefunction. The quantum numbers $n$, $l$, and $m_l$ arise from these solutions, defining the energy levels and shapes of atomic orbitals.
+
+The quantum numbers have the following values and meanings:
+\begin{itemize}
+	\item The principal quantum number $n$ determines the electron's energy level and the shell in which the electron resides. It takes positive integer values: $n = 1, 2, 3, \dots$. The value of $n$ also correlates with the period (row) of the periodic table in which the element is found, and as $n$ increases, the electron's average distance from the nucleus and energy both increase.
+	\item The azimuthal quantum number $l$ determines the shape of the orbital and the subshell, corresponding to the labels \(s\), \(p\), \(d\), and \(f\):
+	      \begin{itemize}
+		      \item $l = 0$: $s$-orbital (spherical)
+		      \item $l = 1$: $p$-orbital (dumbbell-shaped)
+		      \item $l = 2$: $d$-orbital (more complex shapes)
+		      \item $l = 3$: $f$-orbital (even more complex shapes)
+	      \end{itemize}
+	      The possible values of $l$ range from $0$ to $n-1$ for a given energy level, defining which subshells are present within a shell.
+	\item The magnetic quantum number $m_l$ defines the orientation of the orbital in space and takes integer values from $-l$ to $l$: $m_l = -l, -(l-1), \dots, 0, \dots, (l-1), l$. It specifies the number of orbitals within a subshell, such as the three orientations of the $p$-orbitals or the five orientations of the $d$-orbitals.
+\end{itemize}
+These quantum numbers collectively describe the unique characteristics of atomic orbitals, such as energy level, shape, orientation, and how they correspond to the organization of elements in the periodic table.
+\begin{itemize}
+	\item Total Nodes = $n-1$
+	\item Total Angular Nodes = $l$
+	\item Total Radial Nodes = $n-l-1$
+\end{itemize}
+
+
+\section{Energy Diagram for Atomic Orbitals}
+
+\begin{tikzpicture}
+
+	% Energy axis
+	\draw[->] (0,0) -- (0,6) node[left] {Energy};
+
+	% n = 1
+	\node at (-1,0.5) {\(n=1\)};
+	\node at (1.2,0.5) {1s};
+	\draw[fill=purple] (1.5,0.25) rectangle (2,0.75);
+
+	% n = 2
+	\node at (-1,1.5) {\(n=2\)};
+	\node at (1.2,1.5) {2s};
+	\draw[fill=purple] (1.5,1.25) rectangle (2,1.75);
+
+	\node at (3,1.5) {2p};
+	\foreach \i in {1,2,3} {
+			\draw[fill=green] (3+\i*0.5,1.25) rectangle (3.5+\i*0.5,1.75);
+		}
+
+	% n = 3
+	\node at (-1,3) {\(n=3\)};
+	\node at (1.2,3) {3s};
+	\draw[fill=purple] (1.5,2.75) rectangle (2,3.25);
+
+	\node at (3,3) {3p};
+	\foreach \i in {1,2,3} {
+			\draw[fill=green] (3+\i*0.5,2.75) rectangle (3.5+\i*0.5,3.25);
+		}
+
+	\node at (6,3) {3d};
+	\foreach \i in {1,2,3,4,5} {
+			\draw[fill=red] (6+\i*0.5,2.75) rectangle (6.5+\i*0.5,3.25);
+		}
+
+	% n = 4
+	\node at (-1,4.5) {\(n=4\)};
+	\node at (1.2,4.5) {4s};
+	\draw[fill=purple] (1.5,4.25) rectangle (2,4.75);
+
+	\node at (3,4.5) {4p};
+	\foreach \i in {1,2,3} {
+			\draw[fill=green] (3+\i*0.5,4.25) rectangle (3.5+\i*0.5,4.75);
+		}
+
+	\node at (6,4.5) {4d};
+	\foreach \i in {1,2,3,4,5} {
+			\draw[fill=red] (6+\i*0.5,4.25) rectangle (6.5+\i*0.5,4.75);
+		}
+
+	\node at (10,4.5) {4f};
+	\foreach \i in {1,2,3,4,5,6,7} {
+			\draw[fill=blue] (10+\i*0.5,4.25) rectangle (10.5+\i*0.5,4.75);
+		}
+
+\end{tikzpicture}
+
+\subsection*{Explanation}
+
+The diagram represents the energy levels of atomic orbitals, arranged by the principal quantum number ($n$) and their corresponding subshells.
+
+\begin{itemize}
+	\item \textbf{Energy Axis:} The y-axis represents the increasing energy of the orbitals. As the energy increases, the orbitals are arranged vertically.
+	\item \textbf{Principal Quantum Number ($n$):} Each horizontal row corresponds to a different value of $n$, the principal quantum number, representing different electron shells. For example:
+	      \begin{itemize}
+		      \item $n=1$: 1s orbital (lowest energy)
+		      \item $n=2$: 2s and 2p orbitals
+		      \item $n=3$: 3s, 3p, and 3d orbitals
+		      \item $n=4$: 4s, 4p, 4d, and 4f orbitals (highest energy shown)
+	      \end{itemize}
+	      The value of $n$ corresponds to the shell and relates to the energy level and the row (period) in the periodic table.
+	\item \textbf{Subshells and Orbitals:}
+	      \begin{itemize}
+		      \item \textbf{s-orbitals ($l=0$)} are spherical and represented by purple squares. They exist for each value of $n$ (1s, 2s, 3s, 4s).
+		      \item \textbf{p-orbitals ($l=1$)} are dumbbell-shaped and represented by green squares. They appear starting from $n=2$ (2p, 3p, 4p) and have three possible orientations, corresponding to three green squares for each $p$-subshell.
+		      \item \textbf{d-orbitals ($l=2$)} are more complex in shape and represented by red squares. They appear starting from $n=3$ (3d, 4d) and have five possible orientations, represented by five red squares for each $d$-subshell.
+		      \item \textbf{f-orbitals ($l=3$)} are highly complex in shape and represented by blue squares. They appear starting from $n=4$ (4f) and have seven possible orientations, represented by seven blue squares for each $f$-subshell.
+	      \end{itemize}
+\end{itemize}
+
+The horizontal arrangement of colored squares shows the degeneracy (number of orbitals) for each subshell, while the vertical arrangement corresponds to increasing energy.
+
+\pagebreak
+
+\subsection{Visualization of Electron Probability Density Functions and Orbitals}
+
+% 1s Orbital
+\begin{tikzpicture}
+    % Plot for 1s orbital
+    \begin{axis}[
+        width=10cm,
+        height=5cm,
+        xmin=0, xmax=20,
+        ymin=0, ymax=0.6,
+        xlabel={$r$ (a.u.)},
+        ylabel={Probability Density},
+        axis x line=bottom,
+        axis y line=left,
+        title={1s Orbital}
+    ]
+    \addplot [domain=0:20, samples=200, thick, blue] {4*(1)^3 * x^2 * exp(-2*x)};
+    \end{axis}
+
+    % 2D representation of 1s orbital
+    \begin{scope}[shift={(12cm,1cm)}]
+        \draw [fill=blue!20] (0,0) circle (1cm);
+        \node at (0,-1.5) {1s Orbital};
+    \end{scope}
+\end{tikzpicture}
+
+\vspace{1.5cm}
+
+% 2s Orbital
+\begin{tikzpicture}
+    % Plot for 2s orbital
+    \begin{axis}[
+        width=10cm,
+        height=5cm,
+        xmin=0, xmax=20,
+        ymin=-0.01, ymax=1.4,
+        xlabel={$r$ (a.u.)},
+        ylabel={Probability Density},
+        axis x line=bottom,
+        axis y line=left,
+        title={2s Orbital}
+    ]
+    \addplot [domain=0:20, samples=200, thick, red] {(1/2)*(1)^3 * x^2 * (1 - x)^2 * exp(-x)};
+    \end{axis}
+
+    % 2D representation of 2s orbital
+    \begin{scope}[shift={(12cm,1cm)}]
+        \draw [fill=white] (0,0) circle (1.5cm);
+        \draw [fill=red!20] (0,0) circle (1cm);
+        \draw [fill=white] (0,0) circle (0.5cm);
+        \node at (0,-2) {2s Orbital};
+    \end{scope}
+\end{tikzpicture}
+
+\vspace{1.5cm}
+
+% 2p Orbital
+\begin{tikzpicture}
+    % Plot for 2p orbital
+    \begin{axis}[
+        width=10cm,
+        height=5cm,
+        xmin=0, xmax=20,
+        ymin=0, ymax=0.25,
+        xlabel={$r$ (a.u.)},
+        ylabel={Probability Density},
+        axis x line=bottom,
+        axis y line=left,
+        title={2p Orbital}
+    ]
+    \addplot [domain=0:20, samples=200, thick, green] {(1/24)*(1)^3 * x^4 * exp(-x)};
+    \end{axis}
+
+    % 2D representation of 2p orbital
+    \begin{scope}[shift={(12cm,0)}]
+        \draw [fill=green!20] (0,1.5) circle (0.5cm);
+        \draw [fill=green!20] (0,-1.5) circle (0.5cm);
+        \node at (0,-2.5) {2p Orbital};
+    \end{scope}
+\end{tikzpicture}
+
 
 \end{document}

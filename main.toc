@@ -63,4 +63,7 @@
 \contentsline {subsection}{\numberline {4.8.1}Standing Waves and Quantized Orbits}{20}{subsection.4.8.1}%
 \contentsline {subsection}{\numberline {4.8.2}Quantized Momentum of an Electron}{20}{subsection.4.8.2}%
 \contentsline {section}{\numberline {4.9}Heisenberg Uncertainty Principle}{21}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Schrödinger's Equation and Atomic Orbitals}{21}{section.4.10}%
+\contentsline {section}{\numberline {4.11}Energy Diagram for Atomic Orbitals}{22}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Visualization of Electron Probability Density Functions and Orbitals}{24}{subsection.4.11.1}%
 \contentsfinish 
