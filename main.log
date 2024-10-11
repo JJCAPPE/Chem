@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.28)  9 OCT 2024 10:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.28)  9 OCT 2024 15:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1135,19 +1135,50 @@ File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
 \pgf@layerbox@smart diagram arrow back=\box147
 \pgf@layerboxsaved@smart diagram arrow back=\box148
- (/usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.definitions.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.styles.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.commands.code.tex)) (/usr/local/texlive/2024/texmf-dist/tex/generic/chemfig/chemfig.sty (/usr/local/texlive/2024/texmf-dist/tex/generic/chemfig/chemfig.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/simplekv/simplekv.tex
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.definitions.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.styles.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.commands.code.tex)) (/usr/local/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
+\l__chemgreek_tmpa_int=\count471
+\g__chemgreek_tmpa_int=\count472
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count473
+\__mhchem_arrow_extPgfLength_skip=\skip86
+\mhchem@minispace@tmp=\skip87
+\mhchem@minibackspace@tmp=\skip88
+\mhchem@bondwidth=\skip89
+\mhchem@bondheight=\skip90
+\mhchem@smallbondwidth@tmpA=\skip91
+\mhchem@smallbondwidth@tmpB=\skip92
+\mhchem@smallbondwidth=\skip93
+\mhchem@bondtmp@minussidebearingleft=\skip94
+\mhchem@bondtmp@minussidebearingright=\skip95
+\l__mhchem_option_version_int=\count474
+\mhchem@option@minusmathsidebearingleft=\dimen340
+\mhchem@option@minusmathsidebearingright=\dimen341
+\mhchem@option@minustextsidebearingleft=\dimen342
+\mhchem@option@minustextsidebearingright=\dimen343
+
+
+Package mhchem Warning: You did not specify a 'version' option for the mhchem
+(mhchem)                package. Please write \usepackage[version=4]{mhchem}
+(mhchem)                in your preamble (or any lower number for
+(mhchem)                compatibility mode), because you might get slightly
+(mhchem)                different output with the same input in future versions.
+
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/chemfig/chemfig.sty (/usr/local/texlive/2024/texmf-dist/tex/generic/chemfig/chemfig.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/simplekv/simplekv.tex
 Package: simplekv 2023/10/02 v0.2c Simple keyval package (CT)
 )
-\CF_cnt_atomgroup=\count471
-\CF_cnt_group=\count472
-\CF_cnt_atom=\count473
-\CF_cnt_cycle=\count474
-\CF_cnt_cyclebonds=\count475
-\CF_cnt_compound=\count476
-\CF_dim=\dimen340
-\CF_turnangle=\dimen341
-\CF_arrowsize=\dimen342
-\CF_zero=\dimen343
+\CF_cnt_atomgroup=\count475
+\CF_cnt_group=\count476
+\CF_cnt_atom=\count477
+\CF_cnt_cycle=\count478
+\CF_cnt_cyclebonds=\count479
+\CF_cnt_compound=\count480
+\CF_dim=\dimen344
+\CF_turnangle=\dimen345
+\CF_arrowsize=\dimen346
+\CF_zero=\dimen347
 \CF_box=\box149
 \CF_boxstuff=\box150
 \CF_testbox=\box151
@@ -1159,26 +1190,26 @@ Package: chemfig 2023/12/28 v1.66 Draw molecule with an easy syntax (CT)
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen344
-\captionmargin=\dimen345
-\caption@leftmargin=\dimen346
-\caption@rightmargin=\dimen347
-\caption@width=\dimen348
-\caption@indent=\dimen349
-\caption@parindent=\dimen350
-\caption@hangindent=\dimen351
+\caption@tempdima=\dimen348
+\captionmargin=\dimen349
+\caption@leftmargin=\dimen350
+\caption@rightmargin=\dimen351
+\caption@width=\dimen352
+\caption@indent=\dimen353
+\caption@parindent=\dimen354
+\caption@hangindent=\dimen355
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count477
-\c@continuedfloat=\count478
+\c@caption@flags=\count481
+\c@continuedfloat=\count482
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count479
+\c@subfigure=\count483
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count480
+\c@subtable=\count484
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
@@ -1218,44 +1249,44 @@ File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibraryadditions.code.tex) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 25.
-LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 25.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 26.
+LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 26.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 25.
-LaTeX Font Info:    Trying to load font information for U+npxexa on input line 25.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 26.
+LaTeX Font Info:    Trying to load font information for U+npxexa on input line 26.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 25.
-LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 25.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 26.
+LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 26.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 25.
-LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 25.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 26.
+LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 26.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1291,20 +1322,20 @@ LaTeX Font Info:    ... okay on input line 25.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Command `\dddot' is already robust on input line 25.
-LaTeX Info: Command `\ddddot' is already robust on input line 25.
+LaTeX Info: Command `\dddot' is already robust on input line 26.
+LaTeX Info: Command `\ddddot' is already robust on input line 26.
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count481
-\scratchdimen=\dimen352
+\scratchcounter=\count485
+\scratchdimen=\dimen356
 \scratchbox=\box173
-\nofMPsegments=\count482
-\nofMParguments=\count483
+\nofMPsegments=\count486
+\nofMParguments=\count487
 \everyMPshowfont=\toks63
-\MPscratchCnt=\count484
-\MPscratchDim=\dimen353
-\MPnumerator=\count485
-\makeMPintoPDFobject=\count486
+\MPscratchCnt=\count488
+\MPscratchDim=\dimen357
+\MPnumerator=\count489
+\makeMPintoPDFobject=\count490
 \everyMPtoPDFconversion=\toks64
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1312,8 +1343,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 25.
-\c@lstlisting=\count487
+Package hyperref Info: Link coloring ON on input line 26.
+\c@lstlisting=\count491
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks65
@@ -1329,27 +1360,30 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 25.
+ on input line 26.
+
+
+Package chemgreek Info: Activating mapping `default' on line 26.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+npxmia on input line 29.
+LaTeX Font Info:    Trying to load font information for U+npxmia on input line 30.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+npxsym on input line 29.
+LaTeX Font Info:    Trying to load font information for U+npxsym on input line 30.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/npxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 29.
+LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 30.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 ) [1
@@ -1357,7 +1391,7 @@ File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 31.
+(Font)              using `OT1/cmr/bx/n' instead on input line 32.
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1374,7 +1408,7 @@ Missing character: There is no ; in font nullfont!
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 ...Standing Waves in Orbits}{19}{section.4.8}
+l.59 ...The Photoelectric Effect}{18}{section.4.7}
                                                   % [1
 
 {/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}])
@@ -1388,93 +1422,93 @@ Chapter 1.
 ] [4] [5{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc}]
 Chapter 2.
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 169.
+LaTeX Font Warning: Command \large invalid in math mode on input line 172.
 
-<BEPN.png, id=311, 621.82312pt x 472.76625pt>
+<BEPN.png, id=317, 621.82312pt x 472.76625pt>
 File: BEPN.png Graphic file (type png)
 <use BEPN.png>
-Package pdftex.def Info: BEPN.png  used on input line 229.
+Package pdftex.def Info: BEPN.png  used on input line 232.
 (pdftex.def)             Requested size: 230.06859pt x 174.92076pt.
 [6
 
@@ -1485,75 +1519,79 @@ Chapter 3.
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 357.
+(hyperref)                removing `\mathsurround' on input line 360.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 357.
+(hyperref)                removing `\z@' on input line 360.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 357.
+(hyperref)                removing `subscript' on input line 360.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 363.
+(hyperref)                removing `\mathsurround' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 363.
+(hyperref)                removing `\z@' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 363.
+(hyperref)                removing `subscript' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 375.
+(hyperref)                removing `\mathsurround' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 375.
+(hyperref)                removing `\z@' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 375.
+(hyperref)                removing `subscript' on input line 378.
 
-[10] [11] [12]
+[10] [11]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12] [13]
 Chapter 4.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 472.
+(Font)              size <10.95> substituted on input line 550.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 472.
+(hyperref)                removing `math shift' on input line 550.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 472.
+(hyperref)                removing `\lambda' on input line 550.
 
 
-Overfull \hbox (78.92458pt too wide) in paragraph at lines 518--519
+Overfull \hbox (78.92458pt too wide) in paragraph at lines 596--597
  [] 
  []
 
-[13
+[14
 
-] [14] [15]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 628.
-
+] [15] [16]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\nu' on input line 628.
+(hyperref)                removing `math shift' on input line 706.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 628.
+(hyperref)                removing `\nu' on input line 706.
 
-[16] [17] [18] [19] [20] [21] [22] [23] [24] (./main.aux)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 706.
+
+[17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1568,18 +1606,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 53215 strings out of 474116
- 1221305 string characters out of 5743682
+ 54055 strings out of 474116
+ 1241445 string characters out of 5743682
  1965187 words of memory out of 5000000
- 74553 multiletter control sequences out of 15000+600000
+ 75362 multiletter control sequences out of 15000+600000
  605506 words of font info for 170 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,117p,986b,1957s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/newtx/txsym.pfb>
-Output written on main.pdf (25 pages, 364858 bytes).
+Output written on main.pdf (29 pages, 376650 bytes).
 PDF statistics:
- 729 PDF objects out of 1000 (max. 8388607)
- 547 compressed objects within 6 object streams
- 120 named destinations out of 1000 (max. 500000)
- 790 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 778 PDF objects out of 1000 (max. 8388607)
+ 590 compressed objects within 6 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 806 words of extra memory for PDF output out of 10000 (max. 10000000)
 

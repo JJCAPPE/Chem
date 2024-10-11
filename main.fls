@@ -461,6 +461,10 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibr
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.styles.code.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.commands.code.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.commands.code.tex
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/chemfig/chemfig.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/chemfig/chemfig.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/chemfig/chemfig.tex

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1728482907.212 "/Users/giacomo/Documents/Chem/Notes/CH131/main.tex" "main.pdf" "main" 1728482912.05989 0
-  "/Users/giacomo/Documents/Chem/Notes/CH131/main.tex" 1728482906.97561 51262 867a2c1e21d0f7dea790d82bd458464f ""
+["pdflatex"] 1728501150.67577 "/Users/giacomo/Documents/Chem/Notes/CH131/main.tex" "main.pdf" "main" 1728501155.77567 0
+  "/Users/giacomo/Documents/Chem/Notes/CH131/main.tex" 1728501150.31713 58542 871126f43e7334c824cfd65993f2a5a5 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc" 1699652218 3877 2ca811886181a05a861d20a35de75e06 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -234,6 +234,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty" 1696191071 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty" 1696191071 72619 ee90b6612147680fd73c3b1406a74245 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty" 1690576852 12494 0c0cdb824278a4d51cefeb2e79901315 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/chemgreek/chemgreek.sty" 1579297960 47530 64600845afa9c25b782d42fa33f66772 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/comment/comment.sty" 1472166125 10197 204f75d5d8d88aa345a8c402e879e63b ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/environ/environ.sty" 1399239813 4378 f429f0da968c278653359293040a8f52 ""
@@ -276,6 +277,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty" 1576101256 5148 1baf596b2560b44d9ff1889dc1d7564e ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/mathtools/mathtools.sty" 1710187076 62672 9ff036bc89365461cc2bd482cc1e4879 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/mathtools/mhsetup.sty" 1616101747 5582 a43dedf8e5ec418356f1e9dfe5d29fc3 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty" 1706648908 133877 abeecc93dabd0b08364240f40830f21b ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/lmsnpxsy.fd" 1570136818 694 74f1360ae44f64fd2ee5afe681f49916 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/lmxnpxexx.fd" 1570136818 690 f81411dddf695b387c215e4d3b12bf7b ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/newpxmath.sty" 1699652218 115374 9c541a3e0ae7e29bfbf92cf7775f9e83 ""
@@ -355,9 +357,9 @@
   "BEPN.png" 1725543406.73561 40582 8d7b8a6315700b2a274843c163401d86 ""
   "letterfonts.tex" 1725369944.40925 8702 ef32ca12e97530ef5734ca4adcb1f6b1 ""
   "macros.tex" 1725369944.41388 3389 93000260d2aea292d29c76d4ace77a29 ""
-  "main.aux" 1728482911.87258 41386 86631051238a51a6b97aa6f2538cbedf "pdflatex"
-  "main.tex" 1728482906.97561 51262 867a2c1e21d0f7dea790d82bd458464f ""
-  "main.toc" 1728482911.88234 6875 31793d5ed158a6d8d139050206d715f6 "pdflatex"
+  "main.aux" 1728501155.58278 42751 30163cbab87f5c1e453e2483b6f3295b "pdflatex"
+  "main.tex" 1728501150.31713 58542 871126f43e7334c824cfd65993f2a5a5 ""
+  "main.toc" 1728501155.59382 7179 867bc493437ee44af1b8c23b7be45df4 "pdflatex"
   "preamble.tex" 1725369944.41731 20053 cac64cd8837854e12008c40220fda887 ""
   (generated)
   "main.aux"

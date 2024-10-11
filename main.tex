@@ -10,6 +10,7 @@
 \usepackage{pgfplots}
 \usepackage{smartdiagram}
 \usepackage{graphicx}
+\usepackage{mhchem}
 \usepackage{chemfig}
 \usepackage{caption}
 \usepackage{subcaption}
@@ -30,6 +31,8 @@
 \pdfbookmark[section]{\contentsname}{toc}
 \tableofcontents
 \pagebreak
+
+
 
 \chapter{Atomic Theory and the Nature of Modern Chemistry}
 
@@ -437,6 +440,81 @@ For 7 bonding pairs and no lone pairs, the atoms are arranged in a pentagonal bi
 \begin{center}
 	\chemfig{A(-[:90]B)(-[:54]C)(-[:18]D)(-[:306]E)(-[:270]F)(-[:234]G)(-[:198]H)}
 \end{center}
+
+\section{Dipole Moment}
+
+The dipole moment is a measure of the separation of positive and negative charges in a molecule. It is a vector quantity, possessing both magnitude and direction. Molecules with polar bonds may have a net dipole moment if their molecular geometry does not cancel out the individual bond dipoles. The dipole moment influences many physical properties such as solubility, boiling point, and reactivity.
+
+\subsection{Examples}
+
+\subsubsection{Carbon Tetrachloride (CCl$_4$)}
+
+Carbon tetrachloride is a symmetric molecule where the four C--Cl bonds are directed towards the corners of a tetrahedron. Although each C--Cl bond is polar due to the difference in electronegativity between carbon and chlorine, the symmetry of the molecule causes the bond dipoles to cancel out, resulting in a net dipole moment of zero.
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+    % Draw the carbon atom at the center
+    \node (C) at (0,0) {C};
+    % Positions for the four chlorine atoms
+    \node (Cl1) at (1.5,0) {Cl};
+    \node (Cl2) at (-1.5,0) {Cl};
+    \node (Cl3) at (0,1.5) {Cl};
+    \node (Cl4) at (0,-1.5) {Cl};
+    % Draw bonds
+    \draw (C) -- (Cl1);
+    \draw (C) -- (Cl2);
+    \draw (C) -- (Cl3);
+    \draw (C) -- (Cl4);
+    % Indicate dipole moments
+    \draw[->,red,thick] (C) -- ++(0.75,0);
+    \draw[->,red,thick] (C) -- ++(-0.75,0);
+    \draw[->,red,thick] (C) -- ++(0,0.75);
+    \draw[->,red,thick] (C) -- ++(0,-0.75);
+    % Label the dipoles
+    \node[red] at (0.9,0.2) {$\mu$};
+    \node[red] at (-0.9,0.2) {$\mu$};
+    \node[red] at (0.2,0.9) {$\mu$};
+    \node[red] at (0.2,-0.9) {$\mu$};
+\end{tikzpicture}
+\caption{Molecular structure of CCl$_4$ showing bond dipoles cancelling out.}
+\end{figure}
+
+\subsubsection{Chloroform (CHCl$_3$)}
+
+Chloroform has a similar tetrahedral geometry as carbon tetrachloride but with one hydrogen atom replacing one of the chlorine atoms. This asymmetry results in bond dipoles that do not completely cancel out, giving chloroform a net dipole moment.
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+    % Draw the carbon atom at the center
+    \node (C) at (0,0) {C};
+    % Positions for the three chlorine atoms and one hydrogen atom
+    \node (Cl1) at (1.5,0) {Cl};
+    \node (Cl2) at (-1.5,0) {Cl};
+    \node (Cl3) at (0,1.5) {Cl};
+    \node (H) at (0,-1.5) {H};
+    % Draw bonds
+    \draw (C) -- (Cl1);
+    \draw (C) -- (Cl2);
+    \draw (C) -- (Cl3);
+    \draw (C) -- (H);
+    % Indicate dipole moments
+    \draw[->,red,thick] (C) -- ++(0.75,0);
+    \draw[->,red,thick] (C) -- ++(-0.75,0);
+    \draw[->,red,thick] (C) -- ++(0,0.75);
+    \draw[->,red,thick,dashed] (H) -- (C);
+    % Label the dipoles
+    \node[red] at (0.9,0.2) {$\mu$};
+    \node[red] at (-0.9,0.2) {$\mu$};
+    \node[red] at (0.2,0.9) {$\mu$};
+    \node[red] at (-0.2,-0.9) {$\mu$};
+    % Indicate net dipole moment
+    \draw[->,blue,thick] (C) -- ++(0,-1);
+    \node[blue] at (0.3,-1.5) {$\mu_{net}$};
+\end{tikzpicture}
+\caption{Molecular structure of CHCl$_3$ showing bond dipoles and net dipole moment.}
+\end{figure}
 
 \chapter{Quantum Mechanics}
 
@@ -1114,6 +1192,170 @@ The horizontal arrangement of colored squares shows the degeneracy (number of or
         \node at (0,-2.5) {2p Orbital};
     \end{scope}
 \end{tikzpicture}
+
+\section*{Thermodynamic Formulas and Definitions}
+
+\subsection*{Real Gas Equation}
+\[
+\left( P + \frac{a}{v^2} \right) (V - bn) = nRT
+\]
+\textbf{Where:}
+\begin{itemize}
+    \item $P$ = Pressure of the gas
+    \item $V$ = Volume of the gas
+    \item $n$ = Amount of substance
+    \item $R$ = Universal gas constant
+    \item $T$ = Temperature
+    \item $a$, $b$ = Van der Waals constants specific to each gas
+    \item $v$ = Molar volume of the gas ($V/n$)
+\end{itemize}
+
+\subsection*{Partial Pressure}
+\[
+P_i = X_i P_{tot}
+\]
+\textbf{Where:}
+\begin{itemize}
+    \item $P_i$ = Partial pressure of component $i$
+    \item $X_i$ = Mole fraction of component $i$
+    \item $P_{tot}$ = Total pressure of the mixture
+\end{itemize}
+
+\subsection*{Energy Conversions}
+\[
+L \cdot \text{atm} = 101.325 \text{ J}
+\]
+\[
+L \cdot \text{bar} = 100 \text{ J}
+\]
+\textbf{Definitions:}
+\begin{itemize}
+    \item $L$ = Liters
+    \item $J$ = Joules
+    \item $atm$ = Atmosphere pressure unit
+    \item $bar$ = Barometric pressure unit
+\end{itemize}
+
+\subsection*{Calorimetry and Enthalpy}
+\[
+q_{cal} = c_{cal} \cdot \Delta T
+\]
+\[
+q_{sys} = n \cdot \Delta H
+\]
+\[
+\Delta H = \Delta U + P \Delta V
+\]
+\textbf{Where:}
+\begin{itemize}
+    \item $q_{cal}$ = Heat absorbed or released in a calorimeter
+    \item $c_{cal}$ = Specific heat capacity of the calorimeter
+    \item $\Delta T$ = Change in temperature
+    \item $q_{sys}$ = Heat absorbed or released by the system
+    \item $n$ = Amount of substance (moles)
+    \item $\Delta H$ = Change in enthalpy
+    \item $\Delta U$ = Change in internal energy
+    \item $P$ = Pressure
+    \item $\Delta V$ = Change in volume
+\end{itemize}
+
+\subsection*{Work Done by Gas}
+\[
+\Delta U = q + w
+\]
+\[
+w = -P_{\text{ex}}\Delta V
+\]
+\[
+w = -nRT \ln \frac{V_f}{V_i}
+\]
+\textbf{Where:}
+\begin{itemize}
+    \item $\Delta U$ = Change in internal energy
+    \item $q$ = Heat exchange
+    \item $w$ = Work done by or on the system
+    \item $P_{\text{ex}}$ = External pressure
+    \item $V_f$ = Final volume
+    \item $V_i$ = Initial volume
+\end{itemize}
+
+\subsection*{Kinetic Energy of a Molecule}
+\[
+E(k) = \frac{3}{2} RT = \frac{1}{2} M(kg) v^2
+\]
+\textbf{Where:}
+\begin{itemize}
+    \item $E(k)$ = Kinetic energy per molecule
+    \item $M$ = Mass of the molecule
+    \item $v$ = Velocity of the molecule
+\end{itemize}
+
+\subsection*{Graham's Law of Effusion}
+\[
+\frac{\text{Rate}(A)}{\text{Rate}(B)} = \frac{\text{time}(B)}{\text{time}(A)} = \sqrt{\frac{M(B)}{M(A)}}
+\]
+\textbf{Where:}
+\begin{itemize}
+    \item $\text{Rate}(A)$ and $\text{Rate}(B)$ = Rates of effusion for gases A and B
+    \item $\text{time}(A)$ and $\text{time}(B)$ = Times taken for gases A and B to effuse
+    \item $M(A)$ and $M(B)$ = Molar masses of gases A and B
+\end{itemize}
+
+\subsection*{Changes in Internal Energy and Enthalpy}
+\[
+\Delta U = c_v \Delta T
+\]
+\[
+\Delta H = c_p \Delta T
+\]
+\textbf{Where:}
+\begin{itemize}
+    \item $\Delta U$ = Change in internal energy
+    \item $\Delta H$ = Change in enthalpy
+    \item $c_v$ = Heat capacity at constant volume
+    \item $c_p$ = Heat capacity at constant pressure
+    \item $\Delta T$ = Change in temperature
+\end{itemize}
+
+\subsection*{Relationship Between Heat Capacities}
+\[
+c_p = c_v + R
+\]
+\textbf{Where:}
+\begin{itemize}
+    \item $R$ = Universal gas constant
+\end{itemize}
+
+\subsection*{Heat Transfer}
+\[
+q = m c_s \Delta T
+\]
+\textbf{Where:}
+\begin{itemize}
+    \item $q$ = Heat transferred
+    \item $m$ = Mass of the substance
+    \item $c_s$ = Specific heat capacity of the substance
+\end{itemize}
+
+\subsection*{Standard Enthalpy of Reaction}
+\[
+\Delta H^\circ_{rxn} = \Delta H^\circ_{prod} - \Delta H^\circ_{react}
+\]
+\textbf{Where:}
+\begin{itemize}
+    \item $\Delta H^\circ_{rxn}$ = Standard enthalpy change of the reaction
+    \item $\Delta H^\circ_{prod}$ = Sum of standard enthalpies of products
+    \item $\Delta H^\circ_{react}$ = Sum of standard enthalpies of reactants
+\end{itemize}
+
+\subsection*{Temperature Dependence of Enthalpy}
+\[
+\Delta H_{rxn}(T_2) = \Delta H_{rxn}(T_1) + \Delta c_{p,rxn} \Delta T
+\]
+\textbf{Where:}
+\begin{itemize}
+    \item $\Delta c_{p,rxn}$ = Change in heat capacity for the reaction
+\end{itemize}
 
 
 \end{document}
