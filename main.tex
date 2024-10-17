@@ -452,32 +452,32 @@ The dipole moment is a measure of the separation of positive and negative charge
 Carbon tetrachloride is a symmetric molecule where the four C--Cl bonds are directed towards the corners of a tetrahedron. Although each C--Cl bond is polar due to the difference in electronegativity between carbon and chlorine, the symmetry of the molecule causes the bond dipoles to cancel out, resulting in a net dipole moment of zero.
 
 \begin{figure}[h]
-\centering
-\begin{tikzpicture}
-    % Draw the carbon atom at the center
-    \node (C) at (0,0) {C};
-    % Positions for the four chlorine atoms
-    \node (Cl1) at (1.5,0) {Cl};
-    \node (Cl2) at (-1.5,0) {Cl};
-    \node (Cl3) at (0,1.5) {Cl};
-    \node (Cl4) at (0,-1.5) {Cl};
-    % Draw bonds
-    \draw (C) -- (Cl1);
-    \draw (C) -- (Cl2);
-    \draw (C) -- (Cl3);
-    \draw (C) -- (Cl4);
-    % Indicate dipole moments
-    \draw[->,red,thick] (C) -- ++(0.75,0);
-    \draw[->,red,thick] (C) -- ++(-0.75,0);
-    \draw[->,red,thick] (C) -- ++(0,0.75);
-    \draw[->,red,thick] (C) -- ++(0,-0.75);
-    % Label the dipoles
-    \node[red] at (0.9,0.2) {$\mu$};
-    \node[red] at (-0.9,0.2) {$\mu$};
-    \node[red] at (0.2,0.9) {$\mu$};
-    \node[red] at (0.2,-0.9) {$\mu$};
-\end{tikzpicture}
-\caption{Molecular structure of CCl$_4$ showing bond dipoles cancelling out.}
+	\centering
+	\begin{tikzpicture}
+		% Draw the carbon atom at the center
+		\node (C) at (0,0) {C};
+		% Positions for the four chlorine atoms
+		\node (Cl1) at (1.5,0) {Cl};
+		\node (Cl2) at (-1.5,0) {Cl};
+		\node (Cl3) at (0,1.5) {Cl};
+		\node (Cl4) at (0,-1.5) {Cl};
+		% Draw bonds
+		\draw (C) -- (Cl1);
+		\draw (C) -- (Cl2);
+		\draw (C) -- (Cl3);
+		\draw (C) -- (Cl4);
+		% Indicate dipole moments
+		\draw[->,red,thick] (C) -- ++(0.75,0);
+		\draw[->,red,thick] (C) -- ++(-0.75,0);
+		\draw[->,red,thick] (C) -- ++(0,0.75);
+		\draw[->,red,thick] (C) -- ++(0,-0.75);
+		% Label the dipoles
+		\node[red] at (0.9,0.2) {$\mu$};
+		\node[red] at (-0.9,0.2) {$\mu$};
+		\node[red] at (0.2,0.9) {$\mu$};
+		\node[red] at (0.2,-0.9) {$\mu$};
+	\end{tikzpicture}
+	\caption{Molecular structure of CCl$_4$ showing bond dipoles cancelling out.}
 \end{figure}
 
 \subsubsection{Chloroform (CHCl$_3$)}
@@ -485,35 +485,35 @@ Carbon tetrachloride is a symmetric molecule where the four C--Cl bonds are dire
 Chloroform has a similar tetrahedral geometry as carbon tetrachloride but with one hydrogen atom replacing one of the chlorine atoms. This asymmetry results in bond dipoles that do not completely cancel out, giving chloroform a net dipole moment.
 
 \begin{figure}[h]
-\centering
-\begin{tikzpicture}
-    % Draw the carbon atom at the center
-    \node (C) at (0,0) {C};
-    % Positions for the three chlorine atoms and one hydrogen atom
-    \node (Cl1) at (1.5,0) {Cl};
-    \node (Cl2) at (-1.5,0) {Cl};
-    \node (Cl3) at (0,1.5) {Cl};
-    \node (H) at (0,-1.5) {H};
-    % Draw bonds
-    \draw (C) -- (Cl1);
-    \draw (C) -- (Cl2);
-    \draw (C) -- (Cl3);
-    \draw (C) -- (H);
-    % Indicate dipole moments
-    \draw[->,red,thick] (C) -- ++(0.75,0);
-    \draw[->,red,thick] (C) -- ++(-0.75,0);
-    \draw[->,red,thick] (C) -- ++(0,0.75);
-    \draw[->,red,thick,dashed] (H) -- (C);
-    % Label the dipoles
-    \node[red] at (0.9,0.2) {$\mu$};
-    \node[red] at (-0.9,0.2) {$\mu$};
-    \node[red] at (0.2,0.9) {$\mu$};
-    \node[red] at (-0.2,-0.9) {$\mu$};
-    % Indicate net dipole moment
-    \draw[->,blue,thick] (C) -- ++(0,-1);
-    \node[blue] at (0.3,-1.5) {$\mu_{net}$};
-\end{tikzpicture}
-\caption{Molecular structure of CHCl$_3$ showing bond dipoles and net dipole moment.}
+	\centering
+	\begin{tikzpicture}
+		% Draw the carbon atom at the center
+		\node (C) at (0,0) {C};
+		% Positions for the three chlorine atoms and one hydrogen atom
+		\node (Cl1) at (1.5,0) {Cl};
+		\node (Cl2) at (-1.5,0) {Cl};
+		\node (Cl3) at (0,1.5) {Cl};
+		\node (H) at (0,-1.5) {H};
+		% Draw bonds
+		\draw (C) -- (Cl1);
+		\draw (C) -- (Cl2);
+		\draw (C) -- (Cl3);
+		\draw (C) -- (H);
+		% Indicate dipole moments
+		\draw[->,red,thick] (C) -- ++(0.75,0);
+		\draw[->,red,thick] (C) -- ++(-0.75,0);
+		\draw[->,red,thick] (C) -- ++(0,0.75);
+		\draw[->,red,thick,dashed] (H) -- (C);
+		% Label the dipoles
+		\node[red] at (0.9,0.2) {$\mu$};
+		\node[red] at (-0.9,0.2) {$\mu$};
+		\node[red] at (0.2,0.9) {$\mu$};
+		\node[red] at (-0.2,-0.9) {$\mu$};
+		% Indicate net dipole moment
+		\draw[->,blue,thick] (C) -- ++(0,-1);
+		\node[blue] at (0.3,-1.5) {$\mu_{net}$};
+	\end{tikzpicture}
+	\caption{Molecular structure of CHCl$_3$ showing bond dipoles and net dipole moment.}
 \end{figure}
 
 \chapter{Quantum Mechanics}
@@ -753,32 +753,42 @@ Overall, Planck’s introduction of the quantization of energy marked the beginn
 
 \begin{center}
 	\begin{tikzpicture}
-		% Draw the energy levels
-		\draw[thick] (0,0) -- (4,0) node[right] {$n=1$};
-		\draw[thick] (0,2) -- (4,2) node[right] {$n=2$};
-		\draw[thick] (0,3) -- (4,3) node[right] {$n=3$};
-		\draw[thick] (0,3.7) -- (4,3.7) node[right] {$n=4$};
-		\draw[thick] (0,4.2) -- (4,4.2) node[right] {$n=5$};
-		\draw[thick] (0,4.6) -- (4,4.6) node[right] {$n=6$};
-		\draw[thick] (0,5) -- (4,5) node[right] {$n=\infty$};
 
-		% Draw arrows indicating transitions
-		\draw[->, thick, red] (2,3) -- (2,0) node[midway, left] {\footnotesize Lyman Series};
-		\draw[->, thick, blue] (3,4.2) -- (3,2) node[midway, left] {\footnotesize Balmer Series};
-		\draw[->, thick, green] (4,4.6) -- (4,3) node[midway, left] {\footnotesize Paschen Series};
+		% Define the energy levels
+		\draw[thick] (0,0) -- (7,0) node[pos=0.5, above] {$n=1$};
+		\draw[thick] (0,1) -- (7,1) node[pos=0.5, above] {$n=2$};
+		\draw[thick] (0,2) -- (7,2) node[pos=0.5, above] {$n=3$};
+		\draw[thick] (0,3) -- (7,3) node[pos=0.5, above] {$n=4$};
+		\draw[thick] (0,4) -- (7,4) node[pos=0.5, above] {$n=5$};
+		\draw[thick] (0,5) -- (7,5) node[pos=0.5, above] {$n=6$};
+		\draw[thick] (0,6) -- (7,6) node[pos=0.5, above] {$n=7$};
 
-		% Add energy labels
-		\node[left] at (0,0) {$-13.6 \, \text{eV}$};
-		\node[left] at (0,2) {$-3.4 \, \text{eV}$};
-		\node[left] at (0,3) {$-1.51 \, \text{eV}$};
-		\node[left] at (0,3.7) {$-0.85 \, \text{eV}$};
-		\node[left] at (0,4.2) {$-0.54 \, \text{eV}$};
-		\node[left] at (0,4.6) {$-0.38 \, \text{eV}$};
-		\node[left] at (0,5) {$0 \, \text{eV}$};
+		% Lyman series (n_h to n_1=1)
+		\foreach \x in {1,2,3,4,5,6} {
+				\draw[thick, magenta, ->] (\x, \x) -- (\x, 0);
+			}
+		\node[magenta, below] at (0.5,0) {Lyman series $n_h$ to $n_1=1$};
 
-		% Labels
-		\node at (2,-0.5) {Hydrogen Energy Levels};
+		% Balmer series (n_h to n_1=2)
+		\foreach \x in {2,3,4,5} {
+				\draw[thick, blue, ->] (\x+0.5, \x) -- (\x+0.5, 1);
+			}
+		\node[blue, below] at (2.5,1) {Balmer series $n_h$ to $n_1=2$};
+
+		% Paschen series (n_h to n_1=3)
+		\foreach \x in {3,4,5} {
+				\draw[thick, purple, ->] (\x+1, \x) -- (\x+1, 2);
+			}
+		\node[purple, below] at (3.5,2) {Paschen series $n_h$ to $n_1=3$};
+
+		% Bracket series (n_h to n_1=4)
+		\foreach \x in {4,5} {
+				\draw[thick, green, ->] (\x+1.5, \x) -- (\x+1.5, 3);
+			}
+		\node[green, below] at (4.5,3) {Bracket series $n_h$ to $n_1=4$};
+
 	\end{tikzpicture}
+
 \end{center}
 
 \section{The Photoelectric Effect}
@@ -1116,246 +1126,190 @@ The horizontal arrangement of colored squares shows the degeneracy (number of or
 
 % 1s Orbital
 \begin{tikzpicture}
-    % Plot for 1s orbital
-    \begin{axis}[
-        width=10cm,
-        height=5cm,
-        xmin=0, xmax=20,
-        ymin=0, ymax=0.6,
-        xlabel={$r$ (a.u.)},
-        ylabel={Probability Density},
-        axis x line=bottom,
-        axis y line=left,
-        title={1s Orbital}
-    ]
-    \addplot [domain=0:20, samples=200, thick, blue] {4*(1)^3 * x^2 * exp(-2*x)};
-    \end{axis}
+	% Plot for 1s orbital
+	\begin{axis}[
+			width=10cm,
+			height=5cm,
+			xmin=0, xmax=20,
+			ymin=0, ymax=0.6,
+			xlabel={$r$ (a.u.)},
+			ylabel={Probability Density},
+			axis x line=bottom,
+			axis y line=left,
+			title={1s Orbital}
+		]
+		\addplot [domain=0:20, samples=200, thick, blue] {4*(1)^3 * x^2 * exp(-2*x)};
+	\end{axis}
 
-    % 2D representation of 1s orbital
-    \begin{scope}[shift={(12cm,1cm)}]
-        \draw [fill=blue!20] (0,0) circle (1cm);
-        \node at (0,-1.5) {1s Orbital};
-    \end{scope}
+	% 2D representation of 1s orbital
+	\begin{scope}[shift={(12cm,1cm)}]
+		\draw [fill=blue!20] (0,0) circle (1cm);
+		\node at (0,-1.5) {1s Orbital};
+	\end{scope}
 \end{tikzpicture}
 
 \vspace{1.5cm}
 
 % 2s Orbital
 \begin{tikzpicture}
-    % Plot for 2s orbital
-    \begin{axis}[
-        width=10cm,
-        height=5cm,
-        xmin=0, xmax=20,
-        ymin=-0.01, ymax=1.4,
-        xlabel={$r$ (a.u.)},
-        ylabel={Probability Density},
-        axis x line=bottom,
-        axis y line=left,
-        title={2s Orbital}
-    ]
-    \addplot [domain=0:20, samples=200, thick, red] {(1/2)*(1)^3 * x^2 * (1 - x)^2 * exp(-x)};
-    \end{axis}
+	% Plot for 2s orbital
+	\begin{axis}[
+			width=10cm,
+			height=5cm,
+			xmin=0, xmax=20,
+			ymin=-0.01, ymax=1.4,
+			xlabel={$r$ (a.u.)},
+			ylabel={Probability Density},
+			axis x line=bottom,
+			axis y line=left,
+			title={2s Orbital}
+		]
+		\addplot [domain=0:20, samples=200, thick, red] {(1/2)*(1)^3 * x^2 * (1 - x)^2 * exp(-x)};
+	\end{axis}
 
-    % 2D representation of 2s orbital
-    \begin{scope}[shift={(12cm,1cm)}]
-        \draw [fill=white] (0,0) circle (1.5cm);
-        \draw [fill=red!20] (0,0) circle (1cm);
-        \draw [fill=white] (0,0) circle (0.5cm);
-        \node at (0,-2) {2s Orbital};
-    \end{scope}
+	% 2D representation of 2s orbital
+	\begin{scope}[shift={(12cm,1cm)}]
+		\draw [fill=white] (0,0) circle (1.5cm);
+		\draw [fill=red!20] (0,0) circle (1cm);
+		\draw [fill=white] (0,0) circle (0.5cm);
+		\node at (0,-2) {2s Orbital};
+	\end{scope}
 \end{tikzpicture}
 
 \vspace{1.5cm}
 
 % 2p Orbital
 \begin{tikzpicture}
-    % Plot for 2p orbital
-    \begin{axis}[
-        width=10cm,
-        height=5cm,
-        xmin=0, xmax=20,
-        ymin=0, ymax=0.25,
-        xlabel={$r$ (a.u.)},
-        ylabel={Probability Density},
-        axis x line=bottom,
-        axis y line=left,
-        title={2p Orbital}
-    ]
-    \addplot [domain=0:20, samples=200, thick, green] {(1/24)*(1)^3 * x^4 * exp(-x)};
-    \end{axis}
+	% Plot for 2p orbital
+	\begin{axis}[
+			width=10cm,
+			height=5cm,
+			xmin=0, xmax=20,
+			ymin=0, ymax=0.25,
+			xlabel={$r$ (a.u.)},
+			ylabel={Probability Density},
+			axis x line=bottom,
+			axis y line=left,
+			title={2p Orbital}
+		]
+		\addplot [domain=0:20, samples=200, thick, green] {(1/24)*(1)^3 * x^4 * exp(-x)};
+	\end{axis}
 
-    % 2D representation of 2p orbital
-    \begin{scope}[shift={(12cm,0)}]
-        \draw [fill=green!20] (0,1.5) circle (0.5cm);
-        \draw [fill=green!20] (0,-1.5) circle (0.5cm);
-        \node at (0,-2.5) {2p Orbital};
-    \end{scope}
+	% 2D representation of 2p orbital
+	\begin{scope}[shift={(12cm,0)}]
+		\draw [fill=green!20] (0,1.5) circle (0.5cm);
+		\draw [fill=green!20] (0,-1.5) circle (0.5cm);
+		\node at (0,-2.5) {2p Orbital};
+	\end{scope}
 \end{tikzpicture}
 
-\section*{Thermodynamic Formulas and Definitions}
+\section{Nature of Electrons}
 
-\subsection*{Real Gas Equation}
-\[
-\left( P + \frac{a}{v^2} \right) (V - bn) = nRT
-\]
-\textbf{Where:}
+Electrons exhibit wave-like properties, a fundamental concept in quantum mechanics. This wave nature is crucial in understanding atomic structure and electron behavior.
+
+\subsection{Delocalization}
+
+Delocalization occurs when we attempt to "measure" an electron. It describes an electron's wave that is not 3D localized.
+
+\section{Atomic Structure}
+
+\subsection{Electron Configuration}
+
+The arrangement of electrons in an atom follows specific patterns:
+
+\begin{align*}
+	n & = 1: \quad 1s                            \\
+	n & = 2: \quad 2s \quad 2p                   \\
+	n & = 3: \quad 3s \quad 3p \quad 3d          \\
+	n & = 4: \quad 4s \quad 4p \quad 4d \quad 4f
+\end{align*}
+
+Where $n$ represents the principal quantum number.
+
+\section{Radial Probability}
+
+The radial probability distribution shows the likelihood of finding an electron at a certain distance from the nucleus.
+
+\begin{center}
+	\begin{tikzpicture}
+		\draw[->] (0,0) -- (4,0) node[right] {$r$};
+		\draw[->] (0,0) -- (0,3) node[above] {$P(r)$};
+		\draw[domain=0:3.8, smooth, variable=\x, blue] plot ({\x}, {2*\x*exp(-\x)});
+		\node at (1.5,2.5) {1s};
+		\draw[domain=0:3.8, smooth, variable=\x, red] plot ({\x}, {\x*\x*exp(-\x/2)});
+		\node at (3,1.5) {2p};
+	\end{tikzpicture}
+\end{center}
+
+This graph shows the radial probability distributions for 1s and 2p orbitals.
+
+Shielding occurs when inner electrons partially shield outer electrons from the full nuclear charge. This leads to the concept of effective nuclear charge ($Z_{\text{eff}}$).
+
+
+For outer core levels:
+\[ 90\% \cdot (3-2) = 0.9 \quad \text{(eff)} \]
+
+This means that .9 of the charge difference between the actual nuclear charge and the next lower noble gas configuration contributes to the effective nuclear charge.
+
+For 2s, which is not shielded by 1s:
+\[ 100\% \cdot (3-0) = 3 \]
+
+The full charge difference contributes to $Z_{\text{eff}}$.
+
+\section{Electron Configuration}
+
+The arrangement of electrons in an atom follows the Aufbau principle, Pauli exclusion principle, and Hund's rule. The diagram below illustrates the order of filling orbitals:
+
+
+\begin{center}
+	\begin{tikzpicture}[scale=0.8]
+		\draw[->] (0,0) -- (0,8) node[left] {Energy};
+		\draw[->] (0,0) -- (8,0);
+
+		\foreach \y/\l in {0.5/1s, 1.5/2s, 2/2p, 3/3s, 3.5/3p, 4/3d, 4.5/4s, 5/4p, 5.5/4d, 6/4f, 6.5/5s, 7/5p}
+			{
+				\node[left] at (0,\y) {\l};
+				\draw[->] (0.2,\y) -- (1,\y);
+			}
+
+		\draw[->] (1.2,0.5) -- (1.2,1.5);
+		\draw[->] (1.4,1.5) -- (1.4,2);
+		\draw[->] (1.6,2) -- (1.6,3);
+		\draw[->] (1.8,3) -- (1.8,3.5);
+		\draw[->] (2,3.5) -- (2,4);
+		\draw[->] (2.2,4) -- (2.2,4.5);
+		\draw[->] (2.4,4.5) -- (2.4,5);
+	\end{tikzpicture}
+\end{center}
+
+The full electron configuration for elements up to atomic number 87 (Francium) is:
+
+\[ 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10} 5p^6 6s^2 4f^{14} 5d^{10} 6p^6 7s^2 5f^{14} \]
+
+\subsection{Example Configurations}
+
+\textbf{Sodium}
+\[ \text{Sodium} \rightarrow 1s^2 2s^2 2p^6 3s^1 \rightarrow [\text{Ne}] 3s^1 \]
+
+\textbf{Argon}
+\[ \text{Argon} \rightarrow 1s^2 2s^2 2p^6 3s^2 3p^6 \rightarrow [\text{Ne}] 3s^2 3p^6 \rightarrow [\text{Ar}] \]
+
+\section{Quantum Numbers}
+
+For the principal quantum number $n = 3$:
+
 \begin{itemize}
-    \item $P$ = Pressure of the gas
-    \item $V$ = Volume of the gas
-    \item $n$ = Amount of substance
-    \item $R$ = Universal gas constant
-    \item $T$ = Temperature
-    \item $a$, $b$ = Van der Waals constants specific to each gas
-    \item $v$ = Molar volume of the gas ($V/n$)
+	\item $\ell = \{s=0, p=1, d=2, f=3...\}$
+	\item $m_\ell = -\ell, ..., 0, ..., +\ell$
+	\item $m_s = -\frac{1}{2}, +\frac{1}{2}$
 \end{itemize}
 
-\subsection*{Partial Pressure}
-\[
-P_i = X_i P_{tot}
-\]
-\textbf{Where:}
-\begin{itemize}
-    \item $P_i$ = Partial pressure of component $i$
-    \item $X_i$ = Mole fraction of component $i$
-    \item $P_{tot}$ = Total pressure of the mixture
-\end{itemize}
+\section{Hund's Rule}
 
-\subsection*{Energy Conversions}
-\[
-L \cdot \text{atm} = 101.325 \text{ J}
-\]
-\[
-L \cdot \text{bar} = 100 \text{ J}
-\]
-\textbf{Definitions:}
-\begin{itemize}
-    \item $L$ = Liters
-    \item $J$ = Joules
-    \item $atm$ = Atmosphere pressure unit
-    \item $bar$ = Barometric pressure unit
-\end{itemize}
+Hund's rule states that electrons in degenerate orbitals (same energy) will occupy different orbitals with the same spin before pairing up. For example, in the $2p$ orbital:
 
-\subsection*{Calorimetry and Enthalpy}
-\[
-q_{cal} = c_{cal} \cdot \Delta T
-\]
-\[
-q_{sys} = n \cdot \Delta H
-\]
-\[
-\Delta H = \Delta U + P \Delta V
-\]
-\textbf{Where:}
-\begin{itemize}
-    \item $q_{cal}$ = Heat absorbed or released in a calorimeter
-    \item $c_{cal}$ = Specific heat capacity of the calorimeter
-    \item $\Delta T$ = Change in temperature
-    \item $q_{sys}$ = Heat absorbed or released by the system
-    \item $n$ = Amount of substance (moles)
-    \item $\Delta H$ = Change in enthalpy
-    \item $\Delta U$ = Change in internal energy
-    \item $P$ = Pressure
-    \item $\Delta V$ = Change in volume
-\end{itemize}
+\[ (2p_x \uparrow, 2p_y \uparrow, 2p_z \uparrow) \text{ is preferred over } (2p_x \uparrow\downarrow, 2p_y, 2p_z) \]
 
-\subsection*{Work Done by Gas}
-\[
-\Delta U = q + w
-\]
-\[
-w = -P_{\text{ex}}\Delta V
-\]
-\[
-w = -nRT \ln \frac{V_f}{V_i}
-\]
-\textbf{Where:}
-\begin{itemize}
-    \item $\Delta U$ = Change in internal energy
-    \item $q$ = Heat exchange
-    \item $w$ = Work done by or on the system
-    \item $P_{\text{ex}}$ = External pressure
-    \item $V_f$ = Final volume
-    \item $V_i$ = Initial volume
-\end{itemize}
-
-\subsection*{Kinetic Energy of a Molecule}
-\[
-E(k) = \frac{3}{2} RT = \frac{1}{2} M(kg) v^2
-\]
-\textbf{Where:}
-\begin{itemize}
-    \item $E(k)$ = Kinetic energy per molecule
-    \item $M$ = Mass of the molecule
-    \item $v$ = Velocity of the molecule
-\end{itemize}
-
-\subsection*{Graham's Law of Effusion}
-\[
-\frac{\text{Rate}(A)}{\text{Rate}(B)} = \frac{\text{time}(B)}{\text{time}(A)} = \sqrt{\frac{M(B)}{M(A)}}
-\]
-\textbf{Where:}
-\begin{itemize}
-    \item $\text{Rate}(A)$ and $\text{Rate}(B)$ = Rates of effusion for gases A and B
-    \item $\text{time}(A)$ and $\text{time}(B)$ = Times taken for gases A and B to effuse
-    \item $M(A)$ and $M(B)$ = Molar masses of gases A and B
-\end{itemize}
-
-\subsection*{Changes in Internal Energy and Enthalpy}
-\[
-\Delta U = c_v \Delta T
-\]
-\[
-\Delta H = c_p \Delta T
-\]
-\textbf{Where:}
-\begin{itemize}
-    \item $\Delta U$ = Change in internal energy
-    \item $\Delta H$ = Change in enthalpy
-    \item $c_v$ = Heat capacity at constant volume
-    \item $c_p$ = Heat capacity at constant pressure
-    \item $\Delta T$ = Change in temperature
-\end{itemize}
-
-\subsection*{Relationship Between Heat Capacities}
-\[
-c_p = c_v + R
-\]
-\textbf{Where:}
-\begin{itemize}
-    \item $R$ = Universal gas constant
-\end{itemize}
-
-\subsection*{Heat Transfer}
-\[
-q = m c_s \Delta T
-\]
-\textbf{Where:}
-\begin{itemize}
-    \item $q$ = Heat transferred
-    \item $m$ = Mass of the substance
-    \item $c_s$ = Specific heat capacity of the substance
-\end{itemize}
-
-\subsection*{Standard Enthalpy of Reaction}
-\[
-\Delta H^\circ_{rxn} = \Delta H^\circ_{prod} - \Delta H^\circ_{react}
-\]
-\textbf{Where:}
-\begin{itemize}
-    \item $\Delta H^\circ_{rxn}$ = Standard enthalpy change of the reaction
-    \item $\Delta H^\circ_{prod}$ = Sum of standard enthalpies of products
-    \item $\Delta H^\circ_{react}$ = Sum of standard enthalpies of reactants
-\end{itemize}
-
-\subsection*{Temperature Dependence of Enthalpy}
-\[
-\Delta H_{rxn}(T_2) = \Delta H_{rxn}(T_1) + \Delta c_{p,rxn} \Delta T
-\]
-\textbf{Where:}
-\begin{itemize}
-    \item $\Delta c_{p,rxn}$ = Change in heat capacity for the reaction
-\end{itemize}
-
+This configuration has $m_s = +\frac{1}{2}$ for each unpaired electron.
 
 \end{document}

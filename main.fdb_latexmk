@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1728501150.67577 "/Users/giacomo/Documents/Chem/Notes/CH131/main.tex" "main.pdf" "main" 1728501155.77567 0
-  "/Users/giacomo/Documents/Chem/Notes/CH131/main.tex" 1728501150.31713 58542 871126f43e7334c824cfd65993f2a5a5 ""
+["pdflatex"] 1729186868.95474 "/Users/giacomo/Documents/Chem/Notes/CH131/main.tex" "main.pdf" "main" 1729186874.24736 0
+  "/Users/giacomo/Documents/Chem/Notes/CH131/main.tex" 1729186865.02269 57860 ff10bbb88a2781fa42009fa49c3d0561 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc" 1699652218 3877 2ca811886181a05a861d20a35de75e06 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -48,7 +48,6 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb" 1248133631 24457 5cbb7bdf209d5d1ce9892a9b80a307cc ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb" 1248133631 28902 2f5c04fd2884d1878057baa5aad22765 ""
@@ -357,9 +356,9 @@
   "BEPN.png" 1725543406.73561 40582 8d7b8a6315700b2a274843c163401d86 ""
   "letterfonts.tex" 1725369944.40925 8702 ef32ca12e97530ef5734ca4adcb1f6b1 ""
   "macros.tex" 1725369944.41388 3389 93000260d2aea292d29c76d4ace77a29 ""
-  "main.aux" 1728501155.58278 42751 30163cbab87f5c1e453e2483b6f3295b "pdflatex"
-  "main.tex" 1728501150.31713 58542 871126f43e7334c824cfd65993f2a5a5 ""
-  "main.toc" 1728501155.59382 7179 867bc493437ee44af1b8c23b7be45df4 "pdflatex"
+  "main.aux" 1729186874.06512 46907 27478bc21b10fe4b54c68c8fa0690c15 "pdflatex"
+  "main.tex" 1729186865.02269 57860 ff10bbb88a2781fa42009fa49c3d0561 ""
+  "main.toc" 1729186874.07705 7935 df9e144e420b73ac3ab63e09ead9844c "pdflatex"
   "preamble.tex" 1725369944.41731 20053 cac64cd8837854e12008c40220fda887 ""
   (generated)
   "main.aux"
