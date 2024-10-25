@@ -79,4 +79,13 @@
 \contentsline {subsection}{\numberline {4.15.1}Example Configurations}{27}{subsection.4.15.1}%
 \contentsline {section}{\numberline {4.16}Quantum Numbers}{27}{section.4.16}%
 \contentsline {section}{\numberline {4.17}Hund's Rule}{27}{section.4.17}%
+\contentsline {section}{\numberline {4.18}Molecular Orbital Theory}{27}{section.4.18}%
+\contentsline {subsection}{\numberline {4.18.1}Potential Energy of Hydrogen Molecule}{28}{subsection.4.18.1}%
+\contentsline {subsection}{\numberline {4.18.2}Electron Probability Density in H$_2$ Molecule}{28}{subsection.4.18.2}%
+\contentsline {subsection}{\numberline {4.18.3}Bonding and Antibonding Molecular Orbitals of H$_2$}{30}{subsection.4.18.3}%
+\contentsline {subsection}{\numberline {4.18.4}Graphical Representation of Bonding and Antibonding MOs}{31}{subsection.4.18.4}%
+\contentsline {subsection}{\numberline {4.18.5}Correlation Diagrams for First-Period Diatomic Molecules}{32}{subsection.4.18.5}%
+\contentsline {subsection}{\numberline {4.18.6}Table: Electron Configurations and Bond Orders for First-Row Diatomic Molecules}{33}{subsection.4.18.6}%
+\contentsline {subsection}{\numberline {4.18.7}Correlation Diagrams and Molecular Orbitals for Second-Period Diatomic Molecules}{33}{subsection.4.18.7}%
+\contentsline {subsection}{\numberline {4.18.8}Correlation Diagram for Heteronuclear Diatomic Molecules}{35}{subsection.4.18.8}%
 \contentsfinish 
