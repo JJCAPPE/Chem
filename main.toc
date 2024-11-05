@@ -88,4 +88,17 @@
 \contentsline {subsection}{\numberline {4.18.6}Table: Electron Configurations and Bond Orders for First-Row Diatomic Molecules}{33}{subsection.4.18.6}%
 \contentsline {subsection}{\numberline {4.18.7}Correlation Diagrams and Molecular Orbitals for Second-Period Diatomic Molecules}{33}{subsection.4.18.7}%
 \contentsline {subsection}{\numberline {4.18.8}Correlation Diagram for Heteronuclear Diatomic Molecules}{35}{subsection.4.18.8}%
+\contentsline {subsection}{\numberline {4.18.9}Paramagnetic and Diamagnetic}{36}{subsection.4.18.9}%
+\contentsline {subsection}{\numberline {4.18.10}Bond Length}{36}{subsection.4.18.10}%
+\contentsline {chapter}{\numberline {5}Gasses}{37}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction to Gases}{37}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Boyle's Law}{37}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Non-Uniform Collisions and Energy Distribution}{37}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Charles's Law}{37}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Absolute Zero and the Kelvin Scale}{38}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Avogadro's Law}{38}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Summary of Gas Laws}{39}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Units for Each Variable}{39}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}General Gas Equation}{40}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Conversion Between mmHg and Pa}{40}{subsection.5.7.3}%
 \contentsfinish 
