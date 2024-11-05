@@ -101,4 +101,7 @@
 \contentsline {subsection}{\numberline {5.7.1}Units for Each Variable}{39}{subsection.5.7.1}%
 \contentsline {subsection}{\numberline {5.7.2}General Gas Equation}{40}{subsection.5.7.2}%
 \contentsline {subsection}{\numberline {5.7.3}Conversion Between mmHg and Pa}{40}{subsection.5.7.3}%
+\contentsline {section}{\numberline {5.8}Mixtures of Gases}{40}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Dalton's Law of Partial Pressures}{41}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Mole Fraction and Partial Pressure}{41}{subsection.5.8.2}%
 \contentsfinish 

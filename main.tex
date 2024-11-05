@@ -1743,11 +1743,79 @@ To convert a pressure \( P \) in mmHg to Pa, multiply by \( 133.322 \):
 \]
 
 \ex{Example Conversion from mmHg to Pa}{
-Suppose we have a pressure of \( 760 \, \text{mmHg} \). To convert to Pa:
+	Suppose we have a pressure of \( 760 \, \text{mmHg} \). To convert to Pa:
+	\[
+		P(\text{Pa}) = 760 \, \text{mmHg} \times 133.322 = 101{,}325.72 \, \text{Pa}.
+	\]
+	Thus, \( 760 \, \text{mmHg} \) is approximately \( 101{,}325 \, \text{Pa} \), which is close to standard atmospheric pressure.
+}
+
+\section{Mixtures of Gases}
+
+When dealing with mixtures of gases, we can treat the system as if there were a single gas by using the total amount \( n = n_{\text{total}} \).
+
+\subsection{Dalton's Law of Partial Pressures}
+
+Dalton's Law of Partial Pressures states that the total pressure exerted by a mixture of non-reacting gases is equal to the sum of the partial pressures of the individual gases. Mathematically, this can be expressed as:
 \[
-	P(\text{Pa}) = 760 \, \text{mmHg} \times 133.322 = 101{,}325.72 \, \text{Pa}.
+	P_{\text{tot}} = P_1 + P_2 + \dots
 \]
-Thus, \( 760 \, \text{mmHg} \) is approximately \( 101{,}325 \, \text{Pa} \), which is close to standard atmospheric pressure.
+where \( P_{\text{tot}} \) is the total pressure and \( P_1, P_2, \dots \) are the partial pressures of each gas in the mixture.
+
+Each partial pressure \( P_i \) is the pressure that each gas would exert if it were alone in the container at the same temperature and volume.
+
+\ex{Calculating the Pressure of a Gas Mixture}{
+	Suppose we have a mixture of \( 1 \, \text{g} \) of hydrogen (\( \text{H}_2 \)) and \( 5 \, \text{g} \) of helium (\( \text{He} \)) in a container. We can calculate the partial pressures of each gas and the total pressure.
+
+	\begin{enumerate}
+		\item First, calculate the number of moles of each gas:
+		      \[
+			      n_{\text{H}_2} = \frac{1}{2.02} = 0.495 \, \text{mol}, \quad n_{\text{He}} = \frac{5}{4.003} = 1.25 \, \text{mol}.
+		      \]
+
+		\item The total number of moles is:
+		      \[
+			      n_{\text{total}} = n_{\text{H}_2} + n_{\text{He}} = 0.495 + 1.25 = 1.745 \, \text{mol}.
+		      \]
+
+		\item Using the Ideal Gas Law, the total pressure \( P_{\text{tot}} \) is given by:
+		      \[
+			      P_{\text{tot}} = \frac{n_{\text{total}} R T}{V}.
+		      \]
+	\end{enumerate}
+}
+
+\subsection{Mole Fraction and Partial Pressure}
+
+The mole fraction \( x_i \) of each gas in the mixture is the ratio of the number of moles of that gas to the total number of moles:
+\[
+	x_i = \frac{n_i}{n_{\text{total}}}.
+\]
+
+The partial pressure \( P_i \) of each gas can then be calculated using the mole fraction and the total pressure:
+\[
+	P_i = x_i \cdot P_{\text{tot}}.
+\]
+
+\ex{Calculating Mole Fractions and Partial Pressures}{
+	Given the previous example with \( n_{\text{H}_2} = 0.495 \, \text{mol} \) and \( n_{\text{He}} = 1.25 \, \text{mol} \):
+
+	\begin{enumerate}
+		\item The mole fraction of hydrogen is:
+		      \[
+			      x_{\text{H}_2} = \frac{n_{\text{H}_2}}{n_{\text{total}}} = \frac{0.495}{1.745} \approx 0.284.
+		      \]
+
+		\item The mole fraction of helium is:
+		      \[
+			      x_{\text{He}} = \frac{n_{\text{He}}}{n_{\text{total}}} = \frac{1.25}{1.745} \approx 0.716.
+		      \]
+
+		\item If the total pressure \( P_{\text{tot}} \) is known, the partial pressures can be calculated as:
+		      \[
+			      P_{\text{H}_2} = x_{\text{H}_2} \cdot P_{\text{tot}}, \quad P_{\text{He}} = x_{\text{He}} \cdot P_{\text{tot}}.
+		      \]
+	\end{enumerate}
 }
 
 

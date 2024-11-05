@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1730820505.01826 "/Users/giacomo/Documents/Chem/Notes/CH131/main.tex" "main.pdf" "main" 1730820511.14027 0
-  "/Users/giacomo/Documents/Chem/Notes/CH131/main.tex" 1730820498.5035 84607 4101e2fd23b68df9a2935ffd386e7cab ""
+["pdflatex"] 1730821393.02544 "/Users/giacomo/Documents/Chem/Notes/CH131/main.tex" "main.pdf" "main" 1730821399.22955 0
+  "/Users/giacomo/Documents/Chem/Notes/CH131/main.tex" 1730821389.23607 87389 1a4f082abacbdeb3dc0042e2f5fd83e8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc" 1699652218 3877 2ca811886181a05a861d20a35de75e06 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -369,9 +369,9 @@
   "BEPN.png" 1725543406.73561 40582 8d7b8a6315700b2a274843c163401d86 ""
   "letterfonts.tex" 1725369944.40925 8702 ef32ca12e97530ef5734ca4adcb1f6b1 ""
   "macros.tex" 1725369944.41388 3389 93000260d2aea292d29c76d4ace77a29 ""
-  "main.aux" 1730820510.94373 62345 08166c3f703ceb98db7206ec1dabaa51 "pdflatex"
-  "main.tex" 1730820498.5035 84607 4101e2fd23b68df9a2935ffd386e7cab ""
-  "main.toc" 1730820510.95878 10187 4bd64665ca19acb354a564a5a57d5c65 "pdflatex"
+  "main.aux" 1730821399.02921 64111 3da632b481cfee400b3f09dc5fe62493 "pdflatex"
+  "main.tex" 1730821389.23607 87389 1a4f082abacbdeb3dc0042e2f5fd83e8 ""
+  "main.toc" 1730821399.04616 10474 51b44a1f8c9f2bc4be987d835ead4137 "pdflatex"
   "preamble.tex" 1725369944.41731 20053 cac64cd8837854e12008c40220fda887 ""
   (generated)
   "main.aux"
