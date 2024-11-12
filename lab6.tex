@@ -1,0 +1,127 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{chemfig}
+\usepackage{tikz}
+\usepackage{mhchem}
+
+\title{Lab 06: Intermolecular Forces - Procedure and Safety Notes}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Materials}
+\begin{itemize}
+    \item Digital Thermometer
+    \item Beakers
+    \item Test Tubes (10 mL)
+    \item Test Tube Rack
+    \item Ring Stand and Clamp
+    \item Filter Paper Strips
+    \item Masking Tape
+    \item Liquids: Methanol (CH$_3$OH), 1-Propanol (CH$_3$(CH$_2$)$_2$OH), 1-Butanol (CH$_3$(CH$_2$)$_3$OH), Hexane (CH$_3$(CH$_2$)$_4$CH$_3$), Acetone (CH$_3$COCH$_3$), Deionized Water (H$_2$O), Unknown Liquid
+\end{itemize}
+
+\section*{Procedure Outline}
+\begin{enumerate}
+    \item \textbf{Preparation}:
+    \begin{itemize}
+        \item Draw Lewis structures for each liquid, indicating 3D structure with wedged and dashed bonds.
+        \item Identify the intermolecular forces (IMFs) each liquid exhibits, comparing similarities and differences.
+    \end{itemize}
+
+    \item \textbf{Predict Evaporation Rates}:
+    \begin{itemize}
+        \item Rank compounds based on predicted evaporation rates, considering molecular size, dipole presence, and hydrogen bonding capability.
+    \end{itemize}
+
+    \item \textbf{Temperature Measurement}:
+    \begin{itemize}
+        \item Add 3-5 mL of the first solvent to a test tube. Place it in a fume hood.
+        \item Immerse thermometer until temperature stabilizes; record as initial temperature $T_i$.
+    \end{itemize}
+
+    \item \textbf{Evaporation Process}:
+    \begin{itemize}
+        \item Remove the thermometer and clamp it on the stand. Begin timing evaporation as soon as it leaves the liquid.
+        \item Record the minimum temperature $T_{\text{min}}$ and evaporation time $t_{\text{evap}}$ when temperature begins rising.
+        \item Calculate temperature change $\Delta T = T_i - T_{\text{min}}$ and evaporation rate \( \text{Rate}_{\text{evap}} = \frac{\Delta T}{t_{\text{evap}}} \).
+    \end{itemize}
+
+    \item \textbf{Increasing Evaporation Time} (if rates are too close to distinguish):
+    \begin{itemize}
+        \item Wrap a filter paper strip around the thermometer tip to increase liquid contact and prolong evaporation.
+    \end{itemize}
+
+    \item \textbf{Repeat}:
+    \begin{itemize}
+        \item Follow steps 3-5 for each liquid.
+    \end{itemize}
+
+    \item \textbf{Cleanup}:
+    \begin{itemize}
+        \item Dispose of organic liquids in the designated waste container; dump water into the sink.
+        \item Return equipment to storage.
+    \end{itemize}
+\end{enumerate}
+
+\section*{Safety Concerns and SDS Summary}
+\begin{itemize}
+    \item \textbf{Methanol (CH$_3$OH)}: Highly flammable and toxic by inhalation, ingestion, and skin contact. Use in a fume hood with gloves and goggles.
+    \item \textbf{1-Propanol (CH$_3$(CH$_2$)$_2$OH)}: Flammable, irritant to eyes and skin, toxic if ingested. Requires gloves, goggles, and fume hood.
+    \item \textbf{1-Butanol (CH$_3$(CH$_2$)$_3$OH)}: Flammable, causes eye and skin irritation. Use standard protective equipment.
+    \item \textbf{Hexane (CH$_3$(CH$_2$)$_4$CH$_3$)}: Extremely flammable, may cause dizziness or drowsiness. Proper ventilation and protective gear required.
+    \item \textbf{Acetone (CH$_3$COCH$_3$)}: Highly flammable, irritant to eyes and respiratory system. Use with appropriate protective measures.
+    \item \textbf{Deionized Water (H$_2$O)}: Generally safe but should be disposed of properly after use.
+\end{itemize}
+
+Each compound should be handled minimally, kept closed when not in use, and worked with in the fume hood to avoid inhaling fumes.
+
+\section*{Lewis Structures and VSEPR Shapes}
+\begin{itemize}
+    \item \textbf{Methanol (CH$_3$OH)}
+    \begin{center}
+        % Lewis Structure for Methanol
+        \chemfig{H-C(-[:30]H)(-[:-30]H)-O-H}
+    \end{center}
+    - \textbf{VSEPR Shape}: Tetrahedral around carbon, bent around oxygen.
+
+    \item \textbf{1-Propanol (CH$_3$CH$_2$CH$_2$OH)}
+    \begin{center}
+        % Lewis Structure for 1-Propanol
+        \chemfig{H-C(-[:30]H)(-[:-30]H)-C(-[:30]H)(-[:-30]H)-C(-[:30]H)(-[:-30]H)-O-H}
+    \end{center}
+    - \textbf{VSEPR Shape}: Tetrahedral around each carbon, bent around oxygen.
+
+    \item \textbf{1-Butanol (CH$_3$CH$_2$CH$_2$CH$_2$OH)}
+    \begin{center}
+        % Lewis Structure for 1-Butanol
+        \chemfig{H-C(-[:30]H)(-[:-30]H)-C(-[:30]H)(-[:-30]H)-C(-[:30]H)(-[:-30]H)-C(-[:30]H)(-[:-30]H)-O-H}
+    \end{center}
+    - \textbf{VSEPR Shape}: Tetrahedral around each carbon, bent around oxygen.
+
+    \item \textbf{Hexane (CH$_3$(CH$_2$)$_4$CH$_3$)}
+    \begin{center}
+        % Lewis Structure for Hexane
+        \chemfig{H-C(-[:30]H)(-[:-30]H)-C(-[:30]H)(-[:-30]H)-C(-[:30]H)(-[:-30]H)-C(-[:30]H)(-[:-30]H)-C(-[:30]H)(-[:-30]H)-C(-[:30]H)(-[:-30]H)-H}
+    \end{center}
+    - \textbf{VSEPR Shape}: Tetrahedral around each carbon.
+
+    \item \textbf{Acetone (CH$_3$COCH$_3$)}
+    \begin{center}
+        % Lewis Structure for Acetone
+        \chemfig{H-C(-[:30]H)(-[:-30]H)-C(=[:90]O)-C(-[:30]H)(-[:-30]H)-H}
+    \end{center}
+    - \textbf{VSEPR Shape}: Trigonal planar around C=O, tetrahedral around other carbons.
+
+    \item \textbf{Water (H$_2$O)}
+    \begin{center}
+        % Lewis Structure for Water
+        \chemfig{H-O-H}
+    \end{center}
+    - \textbf{VSEPR Shape}: Bent (due to two lone pairs on oxygen).
+\end{itemize}
+\end{document}

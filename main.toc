@@ -1,107 +1,133 @@
-\contentsline {chapter}{\numberline {1}Atomic Theory and the Nature of Modern Chemistry}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}1.1 - The Nature of Modern Chemistry}{3}{section.1.1}%
-\contentsline {section}{\numberline {1.2}The Atom in Modern Chemistry}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Lavoisier: Conservation of Mass and Energy}{3}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Proust: Law of Constant Composition}{4}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Dalton: Law of Multiple Proportions}{4}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Gay-Lussac: Law of Combining Volumes}{4}{subsection.1.2.4}%
-\contentsline {section}{\numberline {1.3}1.2 - Elements: The Building Blocks of Matter}{5}{section.1.3}%
-\contentsline {section}{\numberline {1.4}1.3 - Indirect Evidence for the Existence of Atoms}{5}{section.1.4}%
-\contentsline {section}{\numberline {1.5}1.4 - The Physical Structure of Atoms}{5}{section.1.5}%
-\contentsline {section}{\numberline {1.6}1.5 - Mass Spectrometry and Isotopes}{5}{section.1.6}%
-\contentsline {section}{\numberline {1.7}1.6 - The Mole: Counting Molecules by Weighing}{5}{section.1.7}%
-\contentsline {chapter}{\numberline {2}19 - Nucleosynthesis of the Elements}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}19.1 - Mass-Energy in Nuclei}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}19.2 - Nuclear Decay}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}19.6 - Nuclear Fusion}{7}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Chemical Structures}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Drawing Lewis Dot Structures}{9}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Steps to Draw a Lewis Dot Structure}{9}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Example Structures}{9}{subsection.3.1.2}%
-\contentsline {subsubsection}{Water (H\textsubscript {2}O)}{9}{section*.2}%
-\contentsline {subsubsection}{Carbon Dioxide (CO\textsubscript {2})}{9}{section*.3}%
-\contentsline {section}{\numberline {3.2}Common Molecular Shapes}{10}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}2 Electron Pairs - Linear - AX\textsubscript {2}}{10}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}3 Electron Pairs - Trigonal Planar - AX\textsubscript {3}}{10}{subsection.3.2.2}%
-\contentsline {subsubsection}{3 Electron Pairs (1 Lone Pair) - Bent - AX\textsubscript {2}E}{10}{section*.4}%
-\contentsline {subsection}{\numberline {3.2.3}4 Electron Pairs - Tetrahedral - AX\textsubscript {4}}{10}{subsection.3.2.3}%
-\contentsline {subsubsection}{4 Electron Pairs (1 Lone Pair) - Trigonal Pyramidal - AX\textsubscript {3}E}{10}{section*.5}%
-\contentsline {subsubsection}{4 Electron Pairs (2 Lone Pairs) - Bent AX\textsubscript {2}E\textsubscript {2}}{10}{section*.6}%
-\contentsline {subsection}{\numberline {3.2.4}5 Electron Pairs - Trigonal Bipyramidal}{11}{subsection.3.2.4}%
-\contentsline {subsubsection}{5 Electron Pairs (1 Lone Pair) - Seesaw}{11}{section*.7}%
-\contentsline {subsubsection}{5 Electron Pairs (2 Lone Pairs) - T-Shaped}{11}{section*.8}%
-\contentsline {subsubsection}{5 Electron Pairs (3 Lone Pairs) - Linear}{11}{section*.9}%
-\contentsline {subsection}{\numberline {3.2.5}6 Electron Pairs - Octahedral}{11}{subsection.3.2.5}%
-\contentsline {subsubsection}{6 Electron Pairs (1 Lone Pair) - Square Pyramidal}{11}{section*.10}%
-\contentsline {subsubsection}{6 Electron Pairs (2 Lone Pairs) - Square Planar}{12}{section*.11}%
-\contentsline {subsection}{\numberline {3.2.6}7 Electron Pairs - Pentagonal Bipyramidal}{12}{subsection.3.2.6}%
-\contentsline {section}{\numberline {3.3}Dipole Moment}{12}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Examples}{12}{subsection.3.3.1}%
-\contentsline {subsubsection}{Carbon Tetrachloride (CCl$_4$)}{12}{section*.12}%
-\contentsline {subsubsection}{Chloroform (CHCl$_3$)}{12}{section*.14}%
-\contentsline {chapter}{\numberline {4}Quantum Mechanics}{14}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Electromagnetic Fields in Light}{14}{section.4.1}%
-\contentsline {section}{\numberline {4.2}The Wave Equation: \(c = f \lambda \)}{14}{section.4.2}%
-\contentsline {section}{\numberline {4.3}The Electromagnetic Spectrum}{14}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Absorption Spectrum of Elements}{15}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}How Absorption Spectra Work}{15}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Relationship to Emission Spectrum}{15}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Example: Hydrogen Absorption Spectrum}{15}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Applications of Absorption Spectra}{16}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Rydberg Equations and Emission Spectra}{16}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Applications of Rydberg Equation}{17}{subsection.4.5.1}%
-\contentsline {section}{\numberline {4.6}Max Planck’s 1900 Theory and the Relationship $E = h\nu $}{17}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}The Blackbody Radiation Problem}{17}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Planck's Solution: Quantization of Energy}{17}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Implications of Planck's Theory}{18}{subsection.4.6.3}%
-\contentsline {subsection}{\numberline {4.6.4}Applications and Further Developments}{18}{subsection.4.6.4}%
-\contentsline {subsection}{\numberline {4.6.5}Quantized Emission Spectra}{18}{subsection.4.6.5}%
-\contentsline {section}{\numberline {4.7}The Photoelectric Effect}{18}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Einstein’s Explanation}{19}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}The Photoelectric Equation}{19}{subsection.4.7.2}%
-\contentsline {subsection}{\numberline {4.7.3}Stopping Voltage and Kinetic Energy}{19}{subsection.4.7.3}%
-\contentsline {subsection}{\numberline {4.7.4}Significance of the Photoelectric Effect}{19}{subsection.4.7.4}%
-\contentsline {subsection}{\numberline {4.7.5}Graph of Voltage vs. Kinetic Energy}{20}{subsection.4.7.5}%
-\contentsline {subsection}{\numberline {4.7.6}Explanation of the Graph}{20}{subsection.4.7.6}%
-\contentsline {section}{\numberline {4.8}Quantized Momentum of an Electron and Standing Waves in Orbits}{20}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Standing Waves and Quantized Orbits}{21}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Quantized Momentum of an Electron}{21}{subsection.4.8.2}%
-\contentsline {section}{\numberline {4.9}Heisenberg Uncertainty Principle}{22}{section.4.9}%
-\contentsline {section}{\numberline {4.10}Schrödinger's Equation and Atomic Orbitals}{22}{section.4.10}%
-\contentsline {section}{\numberline {4.11}Energy Diagram for Atomic Orbitals}{23}{section.4.11}%
-\contentsline {subsection}{\numberline {4.11.1}Visualization of Electron Probability Density Functions and Orbitals}{25}{subsection.4.11.1}%
-\contentsline {section}{\numberline {4.12}Nature of Electrons}{25}{section.4.12}%
-\contentsline {subsection}{\numberline {4.12.1}Delocalization}{26}{subsection.4.12.1}%
-\contentsline {section}{\numberline {4.13}Atomic Structure}{26}{section.4.13}%
-\contentsline {subsection}{\numberline {4.13.1}Electron Configuration}{26}{subsection.4.13.1}%
-\contentsline {section}{\numberline {4.14}Radial Probability}{26}{section.4.14}%
-\contentsline {section}{\numberline {4.15}Electron Configuration}{26}{section.4.15}%
-\contentsline {subsection}{\numberline {4.15.1}Example Configurations}{27}{subsection.4.15.1}%
-\contentsline {section}{\numberline {4.16}Quantum Numbers}{27}{section.4.16}%
-\contentsline {section}{\numberline {4.17}Hund's Rule}{27}{section.4.17}%
-\contentsline {section}{\numberline {4.18}Molecular Orbital Theory}{27}{section.4.18}%
-\contentsline {subsection}{\numberline {4.18.1}Potential Energy of Hydrogen Molecule}{28}{subsection.4.18.1}%
-\contentsline {subsection}{\numberline {4.18.2}Electron Probability Density in H$_2$ Molecule}{28}{subsection.4.18.2}%
-\contentsline {subsection}{\numberline {4.18.3}Bonding and Antibonding Molecular Orbitals of H$_2$}{30}{subsection.4.18.3}%
-\contentsline {subsection}{\numberline {4.18.4}Graphical Representation of Bonding and Antibonding MOs}{31}{subsection.4.18.4}%
-\contentsline {subsection}{\numberline {4.18.5}Correlation Diagrams for First-Period Diatomic Molecules}{32}{subsection.4.18.5}%
-\contentsline {subsection}{\numberline {4.18.6}Table: Electron Configurations and Bond Orders for First-Row Diatomic Molecules}{33}{subsection.4.18.6}%
-\contentsline {subsection}{\numberline {4.18.7}Correlation Diagrams and Molecular Orbitals for Second-Period Diatomic Molecules}{33}{subsection.4.18.7}%
-\contentsline {subsection}{\numberline {4.18.8}Correlation Diagram for Heteronuclear Diatomic Molecules}{35}{subsection.4.18.8}%
-\contentsline {subsection}{\numberline {4.18.9}Paramagnetic and Diamagnetic}{36}{subsection.4.18.9}%
-\contentsline {subsection}{\numberline {4.18.10}Bond Length}{36}{subsection.4.18.10}%
-\contentsline {chapter}{\numberline {5}Gasses}{37}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introduction to Gases}{37}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Boyle's Law}{37}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Non-Uniform Collisions and Energy Distribution}{37}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Charles's Law}{37}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Absolute Zero and the Kelvin Scale}{38}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Avogadro's Law}{38}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Summary of Gas Laws}{39}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Units for Each Variable}{39}{subsection.5.7.1}%
-\contentsline {subsection}{\numberline {5.7.2}General Gas Equation}{40}{subsection.5.7.2}%
-\contentsline {subsection}{\numberline {5.7.3}Conversion Between mmHg and Pa}{40}{subsection.5.7.3}%
-\contentsline {section}{\numberline {5.8}Mixtures of Gases}{40}{section.5.8}%
-\contentsline {subsection}{\numberline {5.8.1}Dalton's Law of Partial Pressures}{41}{subsection.5.8.1}%
-\contentsline {subsection}{\numberline {5.8.2}Mole Fraction and Partial Pressure}{41}{subsection.5.8.2}%
+\contentsline {chapter}{\numberline {1}Atomic Theory and the Nature of Modern Chemistry}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}1.1 - The Nature of Modern Chemistry}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}The Atom in Modern Chemistry}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Lavoisier: Conservation of Mass and Energy}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Proust: Law of Constant Composition}{5}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Dalton: Law of Multiple Proportions}{5}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Gay-Lussac: Law of Combining Volumes}{5}{subsection.1.2.4}%
+\contentsline {section}{\numberline {1.3}1.2 - Elements: The Building Blocks of Matter}{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}1.3 - Indirect Evidence for the Existence of Atoms}{6}{section.1.4}%
+\contentsline {section}{\numberline {1.5}1.4 - The Physical Structure of Atoms}{6}{section.1.5}%
+\contentsline {section}{\numberline {1.6}1.5 - Mass Spectrometry and Isotopes}{6}{section.1.6}%
+\contentsline {section}{\numberline {1.7}1.6 - The Mole: Counting Molecules by Weighing}{6}{section.1.7}%
+\contentsline {chapter}{\numberline {2}19 - Nucleosynthesis of the Elements}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}19.1 - Mass-Energy in Nuclei}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}19.2 - Nuclear Decay}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}19.6 - Nuclear Fusion}{8}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Chemical Structures}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Drawing Lewis Dot Structures}{10}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Steps to Draw a Lewis Dot Structure}{10}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Example Structures}{10}{subsection.3.1.2}%
+\contentsline {subsubsection}{Water (H\textsubscript {2}O)}{10}{section*.2}%
+\contentsline {subsubsection}{Carbon Dioxide (CO\textsubscript {2})}{10}{section*.3}%
+\contentsline {section}{\numberline {3.2}Common Molecular Shapes}{11}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}2 Electron Pairs - Linear - AX\textsubscript {2}}{11}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}3 Electron Pairs - Trigonal Planar - AX\textsubscript {3}}{11}{subsection.3.2.2}%
+\contentsline {subsubsection}{3 Electron Pairs (1 Lone Pair) - Bent - AX\textsubscript {2}E}{11}{section*.4}%
+\contentsline {subsection}{\numberline {3.2.3}4 Electron Pairs - Tetrahedral - AX\textsubscript {4}}{11}{subsection.3.2.3}%
+\contentsline {subsubsection}{4 Electron Pairs (1 Lone Pair) - Trigonal Pyramidal - AX\textsubscript {3}E}{11}{section*.5}%
+\contentsline {subsubsection}{4 Electron Pairs (2 Lone Pairs) - Bent AX\textsubscript {2}E\textsubscript {2}}{11}{section*.6}%
+\contentsline {subsection}{\numberline {3.2.4}5 Electron Pairs - Trigonal Bipyramidal}{12}{subsection.3.2.4}%
+\contentsline {subsubsection}{5 Electron Pairs (1 Lone Pair) - Seesaw}{12}{section*.7}%
+\contentsline {subsubsection}{5 Electron Pairs (2 Lone Pairs) - T-Shaped}{12}{section*.8}%
+\contentsline {subsubsection}{5 Electron Pairs (3 Lone Pairs) - Linear}{12}{section*.9}%
+\contentsline {subsection}{\numberline {3.2.5}6 Electron Pairs - Octahedral}{12}{subsection.3.2.5}%
+\contentsline {subsubsection}{6 Electron Pairs (1 Lone Pair) - Square Pyramidal}{12}{section*.10}%
+\contentsline {subsubsection}{6 Electron Pairs (2 Lone Pairs) - Square Planar}{13}{section*.11}%
+\contentsline {subsection}{\numberline {3.2.6}7 Electron Pairs - Pentagonal Bipyramidal}{13}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Dipole Moment}{13}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Examples}{13}{subsection.3.3.1}%
+\contentsline {subsubsection}{Carbon Tetrachloride (CCl$_4$)}{13}{section*.12}%
+\contentsline {subsubsection}{Chloroform (CHCl$_3$)}{13}{section*.14}%
+\contentsline {chapter}{\numberline {4}Quantum Mechanics}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Electromagnetic Fields in Light}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}The Wave Equation: \(c = f \lambda \)}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}The Electromagnetic Spectrum}{15}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Absorption Spectrum of Elements}{16}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}How Absorption Spectra Work}{16}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Relationship to Emission Spectrum}{16}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Example: Hydrogen Absorption Spectrum}{16}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Applications of Absorption Spectra}{17}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Rydberg Equations and Emission Spectra}{17}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Applications of Rydberg Equation}{18}{subsection.4.5.1}%
+\contentsline {section}{\numberline {4.6}Max Planck’s 1900 Theory and the Relationship $E = h\nu $}{18}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}The Blackbody Radiation Problem}{18}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Planck's Solution: Quantization of Energy}{18}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Implications of Planck's Theory}{19}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Applications and Further Developments}{19}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.5}Quantized Emission Spectra}{19}{subsection.4.6.5}%
+\contentsline {section}{\numberline {4.7}The Photoelectric Effect}{19}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Einstein’s Explanation}{20}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}The Photoelectric Equation}{20}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Stopping Voltage and Kinetic Energy}{20}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Significance of the Photoelectric Effect}{20}{subsection.4.7.4}%
+\contentsline {subsection}{\numberline {4.7.5}Graph of Voltage vs. Kinetic Energy}{21}{subsection.4.7.5}%
+\contentsline {subsection}{\numberline {4.7.6}Explanation of the Graph}{21}{subsection.4.7.6}%
+\contentsline {section}{\numberline {4.8}Quantized Momentum of an Electron and Standing Waves in Orbits}{21}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Standing Waves and Quantized Orbits}{22}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Quantized Momentum of an Electron}{22}{subsection.4.8.2}%
+\contentsline {section}{\numberline {4.9}Heisenberg Uncertainty Principle}{23}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Schrödinger's Equation and Atomic Orbitals}{23}{section.4.10}%
+\contentsline {section}{\numberline {4.11}Energy Diagram for Atomic Orbitals}{24}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Visualization of Electron Probability Density Functions and Orbitals}{26}{subsection.4.11.1}%
+\contentsline {section}{\numberline {4.12}Nature of Electrons}{26}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Delocalization}{27}{subsection.4.12.1}%
+\contentsline {section}{\numberline {4.13}Atomic Structure}{27}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Electron Configuration}{27}{subsection.4.13.1}%
+\contentsline {section}{\numberline {4.14}Radial Probability}{27}{section.4.14}%
+\contentsline {section}{\numberline {4.15}Electron Configuration}{27}{section.4.15}%
+\contentsline {subsection}{\numberline {4.15.1}Example Configurations}{28}{subsection.4.15.1}%
+\contentsline {section}{\numberline {4.16}Quantum Numbers}{28}{section.4.16}%
+\contentsline {section}{\numberline {4.17}Hund's Rule}{28}{section.4.17}%
+\contentsline {section}{\numberline {4.18}Molecular Orbital Theory}{28}{section.4.18}%
+\contentsline {subsection}{\numberline {4.18.1}Potential Energy of Hydrogen Molecule}{29}{subsection.4.18.1}%
+\contentsline {subsection}{\numberline {4.18.2}Electron Probability Density in H$_2$ Molecule}{29}{subsection.4.18.2}%
+\contentsline {subsection}{\numberline {4.18.3}Bonding and Antibonding Molecular Orbitals of H$_2$}{31}{subsection.4.18.3}%
+\contentsline {subsection}{\numberline {4.18.4}Graphical Representation of Bonding and Antibonding MOs}{32}{subsection.4.18.4}%
+\contentsline {subsection}{\numberline {4.18.5}Correlation Diagrams for First-Period Diatomic Molecules}{33}{subsection.4.18.5}%
+\contentsline {subsection}{\numberline {4.18.6}Table: Electron Configurations and Bond Orders for First-Row Diatomic Molecules}{34}{subsection.4.18.6}%
+\contentsline {subsection}{\numberline {4.18.7}Correlation Diagrams and Molecular Orbitals for Second-Period Diatomic Molecules}{34}{subsection.4.18.7}%
+\contentsline {subsection}{\numberline {4.18.8}Correlation Diagram for Heteronuclear Diatomic Molecules}{36}{subsection.4.18.8}%
+\contentsline {subsection}{\numberline {4.18.9}Paramagnetic and Diamagnetic}{37}{subsection.4.18.9}%
+\contentsline {subsection}{\numberline {4.18.10}Bond Length}{37}{subsection.4.18.10}%
+\contentsline {chapter}{\numberline {5}Gasses}{38}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction to Gases}{38}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Boyle's Law}{38}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Non-Uniform Collisions and Energy Distribution}{38}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Charles's Law}{38}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Absolute Zero and the Kelvin Scale}{39}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Avogadro's Law}{39}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Summary of Gas Laws}{40}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Units for Each Variable}{40}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}General Gas Equation}{41}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Conversion Between mmHg and Pa}{41}{subsection.5.7.3}%
+\contentsline {section}{\numberline {5.8}Mixtures of Gases}{41}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Dalton's Law of Partial Pressures}{42}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Mole Fraction and Partial Pressure}{42}{subsection.5.8.2}%
+\contentsline {section}{\numberline {5.9}Gases: Van der Waals Equation}{43}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Properties}{43}{subsection.5.9.1}%
+\contentsline {subsection}{\numberline {5.9.2}Summary of Van der Waals Equation Adjustments}{44}{subsection.5.9.2}%
+\contentsline {section}{\numberline {5.10}Intermolecular Forces: London Dispersion Forces}{44}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Mechanism of London Dispersion Forces}{44}{subsection.5.10.1}%
+\contentsline {subsection}{\numberline {5.10.2}Summary of London Dispersion Forces}{45}{subsection.5.10.2}%
+\contentsline {section}{\numberline {5.11}Intermolecular Forces: Dipole-Dipole Interactions}{45}{section.5.11}%
+\contentsline {subsection}{\numberline {5.11.1}Formation of Dipoles}{45}{subsection.5.11.1}%
+\contentsline {subsection}{\numberline {5.11.2}Strength of Dipole-Dipole Interactions}{45}{subsection.5.11.2}%
+\contentsline {subsection}{\numberline {5.11.3}Combined Intermolecular Forces}{46}{subsection.5.11.3}%
+\contentsline {section}{\numberline {5.12}Gases at the Microscopic Level}{46}{section.5.12}%
+\contentsline {subsection}{\numberline {5.12.1}Key Characteristics of Gases}{46}{subsection.5.12.1}%
+\contentsline {subsection}{\numberline {5.12.2}Forces Associated with Molecular Collisions}{46}{subsection.5.12.2}%
+\contentsline {section}{\numberline {5.13}Gas Kinetic Theory and Related Concepts}{47}{section.5.13}%
+\contentsline {subsection}{\numberline {5.13.1}Pressure and Molecular Speeds}{47}{subsection.5.13.1}%
+\contentsline {subsection}{\numberline {5.13.2}Ideal Gas Law and Molecular Kinetic Energy}{47}{subsection.5.13.2}%
+\contentsline {subsection}{\numberline {5.13.3}Temperature and Kinetic Energy}{47}{subsection.5.13.3}%
+\contentsline {subsection}{\numberline {5.13.4}Diffusion and Effusion}{48}{subsection.5.13.4}%
+\contentsline {section}{\numberline {5.14}Van der Waals Equation for Real Gases}{48}{section.5.14}%
+\contentsline {subsection}{\numberline {5.14.1}Excluded Volume Correction}{48}{subsection.5.14.1}%
+\contentsline {subsection}{\numberline {5.14.2}Intermolecular Forces Correction:}{48}{subsection.5.14.2}%
+\contentsline {subsection}{\numberline {5.14.3}The Van der Waals Equation:}{49}{subsection.5.14.3}%
+\contentsline {section}{\numberline {5.15}Mean Free Path and Collision Frequency}{49}{section.5.15}%
+\contentsline {subsection}{\numberline {5.15.1}Mean Free Path (\(\lambda \))}{49}{subsection.5.15.1}%
+\contentsline {subsection}{\numberline {5.15.2}Collision Frequency}{50}{subsection.5.15.2}%
+\contentsline {subsection}{\numberline {5.15.3}Intuition and Practical Insight}{50}{subsection.5.15.3}%
 \contentsfinish 
