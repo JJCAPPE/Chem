@@ -2255,4 +2255,121 @@ where \( R \) is the gas constant and \( T \) is the temperature. This equation 
 \end{itemize}
 
 By breaking down these concepts and using real-world examples, it becomes easier to connect theoretical formulas with tangible properties of gases.
+
+\section{Solids, Liquids, and Phase Transitions}
+
+This section explores key concepts in thermodynamics related to phase transitions, specific heat capacity, and the energy changes involved in state changes.
+
+\subsection{Specific Heat Capacity}
+The specific heat capacity, \( C_p \), is a measure of the energy required to raise the temperature of a substance. It is defined as:
+\[
+C_p = \frac{q_p}{T}
+\]
+where:
+\begin{itemize}
+    \item \( q_p \) is the heat added at constant pressure.
+    \item \( T \) is the temperature.
+\end{itemize}
+
+Alternatively, the relationship can be expressed in terms of enthalpy (\( \Delta H \)):
+\[
+q_p = \Delta H \quad \Rightarrow \quad C_p = \frac{\Delta H}{\Delta T} \quad \text{or} \quad \Delta H = m \, c \, \Delta T
+\]
+where \( m \) is the mass and \( c \) is the specific heat capacity.
+
+\subsection{Enthalpy and Energy Changes}
+Enthalpy change (\( \Delta H \)) is associated with heat added or removed from a system. The enthalpy change can be written as:
+\[
+\Delta H = E + PV
+\]
+where:
+\begin{itemize}
+    \item \( E \) represents the internal energy of the system.
+    \item \( PV \) is the work done by the system due to pressure and volume.
+\end{itemize}
+
+\begin{center}
+    \textit{Insight:} Added energy can either change the state of a substance (latent heat) or increase its kinetic energy (translational, rotational, or vibrational motion), contributing to a temperature change.
+\end{center}
+
+\subsection{Phase Transitions and Molecular Motion}
+Different phases (solid, liquid, and gas) exhibit distinct types of molecular motion and arrangements:
+\begin{center}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Phase} & \textbf{Translation} & \textbf{Rotation} & \textbf{Vibration} & \textbf{Intermolecular Distance} \\
+        \hline
+        Solid & None & None & About fixed position & Short, fixed \\
+        \hline
+        Liquid & Limited & Hindered & Free & Short, dynamic \\
+        \hline
+        Gas & Free & Free & Free & Long, variable \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\subsection{Endothermic and Exothermic Processes}
+\begin{itemize}
+    \item \textbf{Endothermic processes:} The products are at a higher energy level than the reactants. Examples include melting and vaporization, where energy is absorbed.
+    \item \textbf{Exothermic processes:} The opposite of endothermic, these processes release energy as products form from reactants.
+\end{itemize}
+
+\subsection{Comparing Heat of Fusion and Heat of Vaporization}
+The heat of fusion (\( \Delta H_{\text{fusion}} \)) is generally much smaller than the heat of vaporization (\( \Delta H_{\text{vaporization}} \)). This is because:
+\[
+\Delta H_{\text{fusion}} \ll \Delta H_{\text{vaporization}}
+\]
+\begin{center}
+    \textit{Insight:} Fusion only partially disrupts intermolecular forces, while vaporization requires breaking most intermolecular forces, leading to a significantly higher energy requirement.
+\end{center}
+
+\subsection{Heating Curve and Phase Changes}
+A heating curve illustrates how temperature changes over time as heat is added to a substance. During phase transitions (such as melting and boiling), temperature remains constant while energy is absorbed to change the phase.
+
+\begin{figure}[h!]
+    \centering
+    \begin{tikzpicture}
+        % Axes
+        \draw[->] (0,0) -- (10,0) node[right] {Time};
+        \draw[->] (0,0) -- (0,6) node[above] {Temperature};
+
+        % Labels
+        \node at (-0.5,0.5) {Solid};
+        \node at (-0.5,2.5) {Liquid};
+        \node at (-0.5,5.0) {Gas};
+
+        % Temperature vs. Time lines
+        % Phase 1: Heating Solid
+        \draw[thick] (0,0) -- (2,1.5);
+        \node[below] at (1,0.75) {Heating (Solid)};
+
+        % Phase 2: Melting (constant temperature)
+        \draw[thick] (2,1.5) -- (4,1.5);
+        \node[below] at (3,1.5) {Melting};
+
+        % Phase 3: Heating Liquid
+        \draw[thick] (4,1.5) -- (6,3.5);
+        \node[below] at (5,2.5) {Heating (Liquid)};
+
+        % Phase 4: Vaporization (constant temperature)
+        \draw[thick] (6,3.5) -- (8,3.5);
+        \node[below] at (7,3.5) {Vaporization};
+
+        % Phase 5: Heating Gas
+        \draw[thick] (8,3.5) -- (10,5);
+        \node[below] at (9,4.5) {Heating (Gas)};
+
+        % Dotted Lines to indicate phase transitions
+        \draw[dashed] (2,0) -- (2,1.5);
+        \draw[dashed] (4,0) -- (4,1.5);
+        \draw[dashed] (6,0) -- (6,3.5);
+        \draw[dashed] (8,0) -- (8,3.5);
+
+        % Temperature Labels
+        \node[left] at (0,1.5) {$T_{\text{melt}}$};
+        \node[left] at (0,3.5) {$T_{\text{boil}}$};
+    \end{tikzpicture}
+    \caption{Heating Curve showing temperature changes during phase transitions.}
+\end{figure}
+
 \end{document}

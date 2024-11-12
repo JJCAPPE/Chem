@@ -130,4 +130,11 @@
 \contentsline {subsection}{\numberline {5.15.1}Mean Free Path (\(\lambda \))}{49}{subsection.5.15.1}%
 \contentsline {subsection}{\numberline {5.15.2}Collision Frequency}{50}{subsection.5.15.2}%
 \contentsline {subsection}{\numberline {5.15.3}Intuition and Practical Insight}{50}{subsection.5.15.3}%
+\contentsline {section}{\numberline {5.16}Solids, Liquids, and Phase Transitions}{50}{section.5.16}%
+\contentsline {subsection}{\numberline {5.16.1}Specific Heat Capacity}{50}{subsection.5.16.1}%
+\contentsline {subsection}{\numberline {5.16.2}Enthalpy and Energy Changes}{51}{subsection.5.16.2}%
+\contentsline {subsection}{\numberline {5.16.3}Phase Transitions and Molecular Motion}{51}{subsection.5.16.3}%
+\contentsline {subsection}{\numberline {5.16.4}Endothermic and Exothermic Processes}{51}{subsection.5.16.4}%
+\contentsline {subsection}{\numberline {5.16.5}Comparing Heat of Fusion and Heat of Vaporization}{51}{subsection.5.16.5}%
+\contentsline {subsection}{\numberline {5.16.6}Heating Curve and Phase Changes}{51}{subsection.5.16.6}%
 \contentsfinish 
