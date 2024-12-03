@@ -3,7 +3,15 @@
 \input{preamble}
 \input{macros}
 \input{letterfonts}
-
+\usepackage{ifthen}
+\usepackage{siunitx}
+\usepackage{tikz}
+\usetikzlibrary{hobby} % for ..
+\usetikzlibrary{arrows.meta} % to control arrow size
+\tikzset{>={Latex[length=4,width=4]}} % for LaTeX arrow head
+\usetikzlibrary{calc,intersections,decorations.markings}
+\usepackage{siunitx}
+\usepackage{xcolor}
 \usepackage{tikz}
 \usepackage{tikz-3dplot}
 \usepackage{amsmath}
@@ -14,6 +22,19 @@
 \usepackage{chemfig}
 \usepackage{caption}
 \usepackage{subcaption}
+
+\colorlet{mylightblue}{blue!20}
+\colorlet{myblue}{blue!50!black}
+\colorlet{mydarkblue}{blue!30!black}
+\colorlet{mylightred}{red!10}
+\colorlet{myred}{red!50!black}
+\colorlet{mydarkred}{red!60!black}
+\colorlet{mydarkgreen}{green!30!black}
+\tikzset{
+  midarr/.style={decoration={markings,mark=at position #1 with {\arrow{stealth}}},postaction={decorate}},
+  midarr/.default=0.5
+}
+\def\tick#1#2{\draw[thick] (#1) ++ (#2:0.03*\ymax) --++ (#2-180:0.06*\ymax)}
 \usetikzlibrary{shapes, positioning}
 
 \usepackage{amssymb}  % For additional symbols if needed
@@ -37,6 +58,8 @@
 \chapter{Atomic Theory and the Nature of Modern Chemistry}
 
 \section{1.1 - The Nature of Modern Chemistry}
+
+
 
 \dfn{Conservation of Energy and Mass}{
 	Energy and mass are conserved in ordinary chemical reactions.
@@ -2329,46 +2352,59 @@ A heating curve illustrates how temperature changes over time as heat is added t
 \begin{figure}[h!]
     \centering
     \begin{tikzpicture}
-        % Axes
-        \draw[->] (0,0) -- (10,0) node[right] {Time};
-        \draw[->] (0,0) -- (0,6) node[above] {Temperature};
-
-        % Labels
-        \node at (-0.5,0.5) {Solid};
-        \node at (-0.5,2.5) {Liquid};
-        \node at (-0.5,5.0) {Gas};
-
-        % Temperature vs. Time lines
-        % Phase 1: Heating Solid
-        \draw[thick] (0,0) -- (2,1.5);
-        \node[below] at (1,0.75) {Heating (Solid)};
-
-        % Phase 2: Melting (constant temperature)
-        \draw[thick] (2,1.5) -- (4,1.5);
-        \node[below] at (3,1.5) {Melting};
-
-        % Phase 3: Heating Liquid
-        \draw[thick] (4,1.5) -- (6,3.5);
-        \node[below] at (5,2.5) {Heating (Liquid)};
-
-        % Phase 4: Vaporization (constant temperature)
-        \draw[thick] (6,3.5) -- (8,3.5);
-        \node[below] at (7,3.5) {Vaporization};
-
-        % Phase 5: Heating Gas
-        \draw[thick] (8,3.5) -- (10,5);
-        \node[below] at (9,4.5) {Heating (Gas)};
-
-        % Dotted Lines to indicate phase transitions
-        \draw[dashed] (2,0) -- (2,1.5);
-        \draw[dashed] (4,0) -- (4,1.5);
-        \draw[dashed] (6,0) -- (6,3.5);
-        \draw[dashed] (8,0) -- (8,3.5);
-
-        % Temperature Labels
-        \node[left] at (0,1.5) {$T_{\text{melt}}$};
-        \node[left] at (0,3.5) {$T_{\text{boil}}$};
-    \end{tikzpicture}
+		\message{Phase transition of ice -> water -> steam^^J}
+		\def\ymin{-0.8}
+		\def\ymax{3}
+		\def\xmin{-0.2}
+		\def\xmax{7}
+		\def\t{0.3}    % water/steam transition zone
+		\def\ang{30.4} % angle gradient
+		\coordinate (O) at (0,0);
+		\coordinate (I) at (0.0,-0.4); % ice
+		\coordinate (M) at (0.4,0.0);  % melting
+		\coordinate (W) at (1.2,0.0);  % water
+		\coordinate (E) at (2.6,2,0);  % evaporate
+		\coordinate (S) at (6.6,2.0);  % steam
+		\coordinate (F) at (6.9,2.9);  % final
+		\coordinate (Ex) at ($(E|-O)$); % x evaporation
+		\coordinate (Ey) at ($(E-|O)$); % y evaporation
+		\coordinate (Sx) at ($(S|-O)$); % x steam
+		\coordinate (Fx) at ($(F|-O)$);
+		
+		% AREA
+		\fill[mylightblue] (O) -- (I) -- (M) -- cycle;
+		\fill[blue!8] (W) -- (Ex) -- (S) -- (E) -- cycle;
+		\fill[mylightred] (Ex) -- (S) -- (F) -- (Fx) -- cycle;
+		\begin{scope} % fade/gradient border
+		  \clip (Ex) -- (Sx) -- (S) -- (E) -- cycle; % clip gradient rectangle
+		  \draw[draw=none,transform canvas={rotate=\ang},top color=blue!8,bottom color=mylightred,shading angle=0]
+			({2.6*cos(\ang)},{-2.6*sin(\ang)-\t}) rectangle++(0.65*\xmax,\t); % diagonal border 
+		\end{scope}
+		\node[blue!40!black,left=4,below right=10] at (E) {water};
+		\node[red!40!black,above left=10] at (Sx) {steam};
+		
+		% AXES
+		\draw[->,thick] (0,\ymin) -- (0,\ymax) node[below left=0] {$T$ [\si{\degree C}]};
+		\draw[->,thick] (\xmin,0) -- (\xmax+0.1,0) node[below left=0] {$Q$ [J]}; %[\si{J}]
+		\draw[dashed] (Ex) -- (E) --++ (0,0.1*\ymax);
+		\draw[dashed] (Ey) -- (E);
+		\draw[dashed] (Sx) -- (S) --++ (0,0.1*\ymax);
+		\tick{I}{0} node[left=-1] {$-20$};
+		\tick{Ey}{0} node[left=-1] {$100$};
+		
+		\draw[dashed] (E) -- (Ex);
+		\draw[myblue,thick]
+		  (I) -- (M) -- (W)
+			node[midway,above=-1,scale=0.8] {melt}
+			node[midway,below=-1,scale=0.8] {$mL_\mathrm{f}$} --
+		  (E)
+			node[pos=0.6,left=1,scale=0.8] {$mc\Delta T$} --
+		  (S)
+			node[midway,above=-1,scale=0.8] {evaporate (cook)}
+			node[midway,below=-1,scale=0.8] {$mL_\mathrm{v}$} --
+		  (F);
+		
+	  \end{tikzpicture}
     \caption{Heating Curve showing temperature changes during phase transitions.}
 \end{figure}
 

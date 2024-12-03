@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  12 NOV 2024 15:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  19 NOV 2024 09:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1080,7 +1080,50 @@ File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2023/10/27 v2.16 TOC entries
 \ttl@leftsep=\dimen332
-)) (./macros.tex) (./letterfonts.tex) (/usr/local/texlive/2024/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
+)) (./macros.tex) (./letterfonts.tex) (/usr/local/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2024-09-30 v3.3.22 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count470
+\l__siunitx_number_exponent_fixed_int=\count471
+\l__siunitx_number_min_decimal_int=\count472
+\l__siunitx_number_min_integer_int=\count473
+\l__siunitx_number_round_precision_int=\count474
+\l__siunitx_number_lower_threshold_int=\count475
+\l__siunitx_number_upper_threshold_int=\count476
+\l__siunitx_number_group_first_int=\count477
+\l__siunitx_number_group_size_int=\count478
+\l__siunitx_number_group_minimum_int=\count479
+\l__siunitx_angle_tmp_dim=\dimen333
+\l__siunitx_angle_marker_box=\box146
+\l__siunitx_angle_unit_box=\box147
+\l__siunitx_compound_count_int=\count480
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_table_tmp_box=\box148
+\l__siunitx_table_tmp_dim=\dimen334
+\l__siunitx_table_column_width_dim=\dimen335
+\l__siunitx_table_integer_box=\box149
+\l__siunitx_table_decimal_box=\box150
+\l__siunitx_table_uncert_box=\box151
+\l__siunitx_table_before_box=\box152
+\l__siunitx_table_after_box=\box153
+\l__siunitx_table_before_dim=\dimen336
+\l__siunitx_table_carry_dim=\dimen337
+\l__siunitx_unit_tmp_int=\count481
+\l__siunitx_unit_position_int=\count482
+\l__siunitx_unit_total_int=\count483
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/hobby/tikzlibraryhobby.code.tex (/usr/local/texlive/2024/texmf-dist/tex/latex/hobby/pgflibraryhobby.code.tex (/usr/local/texlive/2024/texmf-dist/tex/latex/hobby/hobby.code.tex (/usr/local/texlive/2024/texmf-dist/tex/latex/hobby/pml3array.sty
+\l_array_base_int=\count484
+\l_array_top_int=\count485
+\l_array_tmp_int=\count486
+\g_array_map_int=\count487
+\g_array_base_int=\count488
+)
+\g__hobby_npoints_int=\count489
+\g__hobby_draw_int=\count490
+))) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+\pgf@intersect@solutions=\count491
+)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (/usr/local/texlive/2024/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
 File: tikzlibrary3d.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
@@ -1088,29 +1131,29 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 \t@pgfplots@toka=\toks55
 \t@pgfplots@tokb=\toks56
 \t@pgfplots@tokc=\toks57
-\pgfplots@tmpa=\dimen333
-\c@pgfplots@coordindex=\count470
-\c@pgfplots@scanlineindex=\count471
- (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+\pgfplots@tmpa=\dimen338
+\c@pgfplots@coordindex=\count492
+\c@pgfplots@scanlineindex=\count493
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks58
 \t@pgf@tokb=\toks59
 \t@pgf@tokc=\toks60
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count472
+\c@pgfplotsarray@tmp=\count494
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count473
+\c@pgfplotstable@counta=\count495
 \t@pgfplotstable@a=\toks61
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count474
+\c@pgfplotslibrarysurf@no=\count496
  (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count475
-\pgfplots@xmin@reg=\dimen334
-\pgfplots@xmax@reg=\dimen335
-\pgfplots@ymin@reg=\dimen336
-\pgfplots@ymax@reg=\dimen337
-\pgfplots@zmin@reg=\dimen338
-\pgfplots@zmax@reg=\dimen339
+\pgfplots@numplots=\count497
+\pgfplots@xmin@reg=\dimen339
+\pgfplots@xmax@reg=\dimen340
+\pgfplots@ymin@reg=\dimen341
+\pgfplots@ymax@reg=\dimen342
+\pgfplots@zmin@reg=\dimen343
+\pgfplots@zmax@reg=\dimen344
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
@@ -1118,14 +1161,14 @@ File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty
 Package: smartdiagram 2016/12/23 v0.3b Automatic creation of smart diagrams from lists of items.
  (/usr/local/texlive/2024/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2024/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count476
-\xs_countb=\count477
+\xs_counta=\count498
+\xs_countb=\count499
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box146
-\pgf@layerboxsaved@background=\box147
+\pgf@layerbox@background=\box154
+\pgf@layerboxsaved@background=\box155
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
 File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
@@ -1135,16 +1178,16 @@ File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
 File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-\pgf@layerbox@smart diagram arrow back=\box148
-\pgf@layerboxsaved@smart diagram arrow back=\box149
+\pgf@layerbox@smart diagram arrow back=\box156
+\pgf@layerboxsaved@smart diagram arrow back=\box157
  (/usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.definitions.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.styles.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.commands.code.tex)) (/usr/local/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
  (/usr/local/texlive/2024/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
-\l__chemgreek_tmpa_int=\count478
-\g__chemgreek_tmpa_int=\count479
+\l__chemgreek_tmpa_int=\count500
+\g__chemgreek_tmpa_int=\count501
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count480
+\l__mhchem_ce_distanceFromLastComma_int=\count502
 \__mhchem_arrow_extPgfLength_skip=\skip86
 \mhchem@minispace@tmp=\skip87
 \mhchem@minibackspace@tmp=\skip88
@@ -1155,11 +1198,11 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use 
 \mhchem@smallbondwidth=\skip93
 \mhchem@bondtmp@minussidebearingleft=\skip94
 \mhchem@bondtmp@minussidebearingright=\skip95
-\l__mhchem_option_version_int=\count481
-\mhchem@option@minusmathsidebearingleft=\dimen340
-\mhchem@option@minusmathsidebearingright=\dimen341
-\mhchem@option@minustextsidebearingleft=\dimen342
-\mhchem@option@minustextsidebearingright=\dimen343
+\l__mhchem_option_version_int=\count503
+\mhchem@option@minusmathsidebearingleft=\dimen345
+\mhchem@option@minusmathsidebearingright=\dimen346
+\mhchem@option@minustextsidebearingleft=\dimen347
+\mhchem@option@minustextsidebearingright=\dimen348
 
 
 Package mhchem Warning: You did not specify a 'version' option for the mhchem
@@ -1171,20 +1214,20 @@ Package mhchem Warning: You did not specify a 'version' option for the mhchem
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/chemfig/chemfig.sty (/usr/local/texlive/2024/texmf-dist/tex/generic/chemfig/chemfig.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/simplekv/simplekv.tex
 Package: simplekv 2023/10/02 v0.2c Simple keyval package (CT)
 )
-\CF_cnt_atomgroup=\count482
-\CF_cnt_group=\count483
-\CF_cnt_atom=\count484
-\CF_cnt_cycle=\count485
-\CF_cnt_cyclebonds=\count486
-\CF_cnt_compound=\count487
-\CF_dim=\dimen344
-\CF_turnangle=\dimen345
-\CF_arrowsize=\dimen346
-\CF_zero=\dimen347
-\CF_box=\box150
-\CF_boxstuff=\box151
-\CF_testbox=\box152
-\CF_chargebox=\box153
+\CF_cnt_atomgroup=\count504
+\CF_cnt_group=\count505
+\CF_cnt_atom=\count506
+\CF_cnt_cycle=\count507
+\CF_cnt_cyclebonds=\count508
+\CF_cnt_compound=\count509
+\CF_dim=\dimen349
+\CF_turnangle=\dimen350
+\CF_arrowsize=\dimen351
+\CF_zero=\dimen352
+\CF_box=\box158
+\CF_boxstuff=\box159
+\CF_testbox=\box160
+\CF_chargebox=\box161
 \CF_substtoks=\toks62
 )
 Package: chemfig 2023/12/28 v1.66 Draw molecule with an easy syntax (CT)
@@ -1192,26 +1235,26 @@ Package: chemfig 2023/12/28 v1.66 Draw molecule with an easy syntax (CT)
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen348
-\captionmargin=\dimen349
-\caption@leftmargin=\dimen350
-\caption@rightmargin=\dimen351
-\caption@width=\dimen352
-\caption@indent=\dimen353
-\caption@parindent=\dimen354
-\caption@hangindent=\dimen355
+\caption@tempdima=\dimen353
+\captionmargin=\dimen354
+\caption@leftmargin=\dimen355
+\caption@rightmargin=\dimen356
+\caption@width=\dimen357
+\caption@indent=\dimen358
+\caption@parindent=\dimen359
+\caption@hangindent=\dimen360
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count488
-\c@continuedfloat=\count489
+\c@caption@flags=\count510
+\c@continuedfloat=\count511
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count490
+\c@subfigure=\count512
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count491
+\c@subtable=\count513
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
@@ -1226,69 +1269,71 @@ File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box154
-\pgfnodeparttwobox=\box155
-\pgfnodepartthreebox=\box156
-\pgfnodepartfourbox=\box157
-\pgfnodeparttwentybox=\box158
-\pgfnodepartnineteenbox=\box159
-\pgfnodeparteighteenbox=\box160
-\pgfnodepartseventeenbox=\box161
-\pgfnodepartsixteenbox=\box162
-\pgfnodepartfifteenbox=\box163
-\pgfnodepartfourteenbox=\box164
-\pgfnodepartthirteenbox=\box165
-\pgfnodeparttwelvebox=\box166
-\pgfnodepartelevenbox=\box167
-\pgfnodeparttenbox=\box168
-\pgfnodepartninebox=\box169
-\pgfnodeparteightbox=\box170
-\pgfnodepartsevenbox=\box171
-\pgfnodepartsixbox=\box172
-\pgfnodepartfivebox=\box173
+\pgfnodepartlowerbox=\box162
+\pgfnodeparttwobox=\box163
+\pgfnodepartthreebox=\box164
+\pgfnodepartfourbox=\box165
+\pgfnodeparttwentybox=\box166
+\pgfnodepartnineteenbox=\box167
+\pgfnodeparteighteenbox=\box168
+\pgfnodepartseventeenbox=\box169
+\pgfnodepartsixteenbox=\box170
+\pgfnodepartfifteenbox=\box171
+\pgfnodepartfourteenbox=\box172
+\pgfnodepartthirteenbox=\box173
+\pgfnodeparttwelvebox=\box174
+\pgfnodepartelevenbox=\box175
+\pgfnodeparttenbox=\box176
+\pgfnodepartninebox=\box177
+\pgfnodeparteightbox=\box178
+\pgfnodepartsevenbox=\box179
+\pgfnodepartsixbox=\box180
+\pgfnodepartfivebox=\box181
 ))) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibraryadditions.code.tex) (./main.aux)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/smartdiagram/smartdiagramlibraryadditions.code.tex)
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 47.
+ (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 26.
-LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 26.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 47.
+LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 47.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 26.
-LaTeX Font Info:    Trying to load font information for U+npxexa on input line 26.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 47.
+LaTeX Font Info:    Trying to load font information for U+npxexa on input line 47.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 26.
-LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 26.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 47.
+LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 47.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 26.
-LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 26.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 47.
+LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 47.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1324,20 +1369,20 @@ LaTeX Font Info:    ... okay on input line 26.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Command `\dddot' is already robust on input line 26.
-LaTeX Info: Command `\ddddot' is already robust on input line 26.
+LaTeX Info: Command `\dddot' is already robust on input line 47.
+LaTeX Info: Command `\ddddot' is already robust on input line 47.
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count492
-\scratchdimen=\dimen356
-\scratchbox=\box174
-\nofMPsegments=\count493
-\nofMParguments=\count494
+\scratchcounter=\count514
+\scratchdimen=\dimen361
+\scratchbox=\box182
+\nofMPsegments=\count515
+\nofMParguments=\count516
 \everyMPshowfont=\toks63
-\MPscratchCnt=\count495
-\MPscratchDim=\dimen357
-\MPnumerator=\count496
-\makeMPintoPDFobject=\count497
+\MPscratchCnt=\count517
+\MPscratchDim=\dimen362
+\MPnumerator=\count518
+\makeMPintoPDFobject=\count519
 \everyMPtoPDFconversion=\toks64
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1345,8 +1390,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 26.
-\c@lstlisting=\count498
+Package hyperref Info: Link coloring ON on input line 47.
+\c@lstlisting=\count520
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks65
@@ -1359,33 +1404,37 @@ Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-))
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 47.
+
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 26.
+ on input line 47.
 
 
-Package chemgreek Info: Activating mapping `default' on line 26.
+Package chemgreek Info: Activating mapping `default' on line 47.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+npxmia on input line 30.
+LaTeX Font Info:    Trying to load font information for U+npxmia on input line 51.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+npxsym on input line 30.
+LaTeX Font Info:    Trying to load font information for U+npxsym on input line 51.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/npxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 30.
+LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 51.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
@@ -1395,7 +1444,7 @@ File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 32.
+(Font)              using `OT1/cmr/bx/n' instead on input line 53.
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1440,93 +1489,93 @@ Chapter 1.
 [6{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc}]
 Chapter 2.
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 172.
+LaTeX Font Warning: Command \large invalid in math mode on input line 195.
 
 <BEPN.png, id=529, 621.82312pt x 472.76625pt>
 File: BEPN.png Graphic file (type png)
 <use BEPN.png>
-Package pdftex.def Info: BEPN.png  used on input line 232.
+Package pdftex.def Info: BEPN.png  used on input line 255.
 (pdftex.def)             Requested size: 230.06859pt x 174.92076pt.
 
 
@@ -1545,39 +1594,39 @@ Chapter 3.
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 360.
+(hyperref)                removing `\mathsurround' on input line 383.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 360.
+(hyperref)                removing `\z@' on input line 383.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 360.
+(hyperref)                removing `subscript' on input line 383.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 366.
+(hyperref)                removing `\mathsurround' on input line 389.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 366.
+(hyperref)                removing `\z@' on input line 389.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 366.
+(hyperref)                removing `subscript' on input line 389.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 378.
+(hyperref)                removing `\mathsurround' on input line 401.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 378.
+(hyperref)                removing `\z@' on input line 401.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 378.
+(hyperref)                removing `subscript' on input line 401.
 
 
 
@@ -1595,18 +1644,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Chapter 4.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 550.
+(Font)              size <10.95> substituted on input line 573.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 550.
+(hyperref)                removing `math shift' on input line 573.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 550.
+(hyperref)                removing `\lambda' on input line 573.
 
 
-Overfull \hbox (78.92458pt too wide) in paragraph at lines 596--597
+Overfull \hbox (78.92458pt too wide) in paragraph at lines 619--620
  [] 
  []
 
@@ -1621,15 +1670,15 @@ Overfull \hbox (78.92458pt too wide) in paragraph at lines 596--597
 [17]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 706.
+(hyperref)                removing `math shift' on input line 729.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\nu' on input line 706.
+(hyperref)                removing `\nu' on input line 729.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 706.
+(hyperref)                removing `math shift' on input line 729.
 
 
 
@@ -1655,27 +1704,27 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 <1.png, id=665, 357.335pt x 300.12125pt>
 File: 1.png Graphic file (type png)
 <use 1.png>
-Package pdftex.def Info: 1.png  used on input line 1322.
+Package pdftex.def Info: 1.png  used on input line 1345.
 (pdftex.def)             Requested size: 344.00308pt x 288.93742pt.
 
 
 [28]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1337.
+(hyperref)                removing `math shift' on input line 1360.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1337.
+(hyperref)                removing `subscript' on input line 1360.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1337.
+(hyperref)                removing `math shift' on input line 1360.
 
 <2.png, id=671, 402.00188pt x 445.665pt>
 File: 2.png Graphic file (type png)
 <use 2.png>
-Package pdftex.def Info: 2.png  used on input line 1342.
+Package pdftex.def Info: 2.png  used on input line 1365.
 (pdftex.def)             Requested size: 344.00308pt x 381.36714pt.
 
 
@@ -1684,20 +1733,20 @@ Package pdftex.def Info: 2.png  used on input line 1342.
 [30 <./2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1372.
+(hyperref)                removing `math shift' on input line 1395.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1372.
+(hyperref)                removing `subscript' on input line 1395.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1372.
+(hyperref)                removing `math shift' on input line 1395.
 
 <3.png, id=687, 399.99437pt x 395.4775pt>
 File: 3.png Graphic file (type png)
 <use 3.png>
-Package pdftex.def Info: 3.png  used on input line 1377.
+Package pdftex.def Info: 3.png  used on input line 1400.
 (pdftex.def)             Requested size: 344.00308pt x 340.13419pt.
 
 
@@ -1705,7 +1754,7 @@ Package pdftex.def Info: 3.png  used on input line 1377.
 <4.png, id=693, 327.2225pt x 297.11pt>
 File: 4.png Graphic file (type png)
 <use 4.png>
-Package pdftex.def Info: 4.png  used on input line 1419.
+Package pdftex.def Info: 4.png  used on input line 1442.
 (pdftex.def)             Requested size: 344.00308pt x 312.34645pt.
 
 
@@ -1713,22 +1762,22 @@ Package pdftex.def Info: 4.png  used on input line 1419.
 <5.1.png, id=700, 453.695pt x 374.39874pt>
 File: 5.1.png Graphic file (type png)
 <use 5.1.png>
-Package pdftex.def Info: 5.1.png  used on input line 1440.
+Package pdftex.def Info: 5.1.png  used on input line 1463.
 (pdftex.def)             Requested size: 141.53558pt x 116.79936pt.
 <5.2.png, id=701, 451.6875pt x 375.90437pt>
 File: 5.2.png Graphic file (type png)
 <use 5.2.png>
-Package pdftex.def Info: 5.2.png  used on input line 1445.
+Package pdftex.def Info: 5.2.png  used on input line 1468.
 (pdftex.def)             Requested size: 141.53558pt x 117.79103pt.
 <5.3.png, id=702, 464.73625pt x 381.425pt>
 File: 5.3.png Graphic file (type png)
 <use 5.3.png>
-Package pdftex.def Info: 5.3.png  used on input line 1450.
+Package pdftex.def Info: 5.3.png  used on input line 1473.
 (pdftex.def)             Requested size: 141.53558pt x 116.16275pt.
 <5.4.png, id=703, 576.1525pt x 248.93pt>
 File: 5.4.png Graphic file (type png)
 <use 5.4.png>
-Package pdftex.def Info: 5.4.png  used on input line 1465.
+Package pdftex.def Info: 5.4.png  used on input line 1488.
 (pdftex.def)             Requested size: 344.00308pt x 148.63365pt.
 
 
@@ -1736,7 +1785,7 @@ Package pdftex.def Info: 5.4.png  used on input line 1465.
 <6.png, id=711, 568.1225pt x 679.53876pt>
 File: 6.png Graphic file (type png)
 <use 6.png>
-Package pdftex.def Info: 6.png  used on input line 1482.
+Package pdftex.def Info: 6.png  used on input line 1505.
 (pdftex.def)             Requested size: 344.00308pt x 411.47995pt.
 
 
@@ -1746,12 +1795,12 @@ Package pdftex.def Info: 6.png  used on input line 1482.
 <7.png, id=723, 350.30875pt x 482.80376pt>
 File: 7.png Graphic file (type png)
 <use 7.png>
-Package pdftex.def Info: 7.png  used on input line 1514.
+Package pdftex.def Info: 7.png  used on input line 1537.
 (pdftex.def)             Requested size: 344.00308pt x 474.14636pt.
 
 
 [36 <./7.png>]
-Overfull \hbox (1.37718pt too wide) in paragraph at lines 1539--1540
+Overfull \hbox (1.37718pt too wide) in paragraph at lines 1562--1563
 \OT1/cmr/m/n/10 In chem-istry and physics, \OT1/cmr/bx/n/10 para-m-ag-netic \OT1/cmr/m/n/10 and \OT1/cmr/bx/n/10 dia-mag-netic \OT1/cmr/m/n/10 re-fer to the mag-netic prop-er-ties of atoms or molecules: 
  []
 
@@ -1777,10 +1826,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [39]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 1687.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 1710.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 1687.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 1710.
 
 Missing character: There is no ° in font cmr10!
 
@@ -1792,7 +1841,7 @@ Missing character: There is no ° in font cmr10!
 [42]
 
 [43]
-Overfull \hbox (2.45468pt too wide) in paragraph at lines 1919--1920
+Overfull \hbox (2.45468pt too wide) in paragraph at lines 1942--1943
 []\OT1/cmr/m/n/10 London dis-per-sion forces arise from tem-po-rary fluc-tu-a-tions in elec-tron dis-tri-bu-tion within atoms or molecules. 
  []
 
@@ -1803,7 +1852,7 @@ Overfull \hbox (2.45468pt too wide) in paragraph at lines 1919--1920
 [45]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 2034.
+(Font)              size <5> substituted on input line 2057.
 
 
 
@@ -1814,17 +1863,17 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <5.5> not available
 [48]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2192.
+(hyperref)                removing `math shift' on input line 2215.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 2192.
+(hyperref)                removing `\lambda' on input line 2215.
 
 
 
 [49]
 
-[50]
+[50] Phase transition of ice -> water -> steam
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1847,18 +1896,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 54210 strings out of 473362
- 1239402 string characters out of 11470983
- 13891035 words of memory out of 22000000
- 76155 multiletter control sequences out of 15000+600000
+ 58758 strings out of 473362
+ 1378025 string characters out of 11470983
+ 13989663 words of memory out of 22000000
+ 80666 multiletter control sequences out of 15000+600000
  608290 words of font info for 179 fonts, out of 12000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,13n,117p,1112b,2042s stack positions out of 10000i,1000n,20000p,12000000b,200000s
+ 103i,13n,117p,1112b,2061s stack positions out of 10000i,1000n,20000p,12000000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/newtx/txsym.pfb>
-Output written on main.pdf (53 pages, 1842731 bytes).
+Output written on main.pdf (53 pages, 1843584 bytes).
 PDF statistics:
- 1366 PDF objects out of 1440 (max. 8388607)
- 1057 compressed objects within 11 object streams
+ 1368 PDF objects out of 1440 (max. 8388607)
+ 1058 compressed objects within 11 object streams
  252 named destinations out of 1000 (max. 500000)
- 1398 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1404 words of extra memory for PDF output out of 10000 (max. 10000000)
 
